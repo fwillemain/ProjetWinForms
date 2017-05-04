@@ -83,21 +83,21 @@
             this.dgvVersion.Location = new System.Drawing.Point(26, 72);
             this.dgvVersion.Name = "dgvVersion";
             this.dgvVersion.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
-            this.dgvVersion.Size = new System.Drawing.Size(574, 325);
+            this.dgvVersion.Size = new System.Drawing.Size(391, 325);
             this.dgvVersion.TabIndex = 2;
             // 
             // lbModule
             // 
             this.lbModule.FormattingEnabled = true;
-            this.lbModule.Location = new System.Drawing.Point(663, 72);
+            this.lbModule.Location = new System.Drawing.Point(434, 72);
             this.lbModule.Name = "lbModule";
-            this.lbModule.Size = new System.Drawing.Size(183, 316);
+            this.lbModule.Size = new System.Drawing.Size(183, 329);
             this.lbModule.TabIndex = 6;
             // 
             // lblModule
             // 
             this.lblModule.AutoSize = true;
-            this.lblModule.Location = new System.Drawing.Point(660, 38);
+            this.lblModule.Location = new System.Drawing.Point(431, 49);
             this.lblModule.Name = "lblModule";
             this.lblModule.Size = new System.Drawing.Size(54, 13);
             this.lblModule.TabIndex = 7;
@@ -117,7 +117,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(909, 469);
+            this.ClientSize = new System.Drawing.Size(657, 469);
             this.Controls.Add(this.lblVersion);
             this.Controls.Add(this.lblModule);
             this.Controls.Add(this.lbModule);

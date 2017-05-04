@@ -46,6 +46,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DALLogiciel.cs" />
+    <Compile Include="FormAjoutVersion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAjoutVersion.Designer.cs">
+      <DependentUpon>FormAjoutVersion.cs</DependentUpon>
+    </Compile>
     <Compile Include="FORMS\FormLogiciel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     <Compile Include="POCO\Logiciel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAjoutVersion.resx">
+      <DependentUpon>FormAjoutVersion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FORMS\FormLogiciel.resx">
       <DependentUpon>FormLogiciel.cs</DependentUpon>
     </EmbeddedResource>

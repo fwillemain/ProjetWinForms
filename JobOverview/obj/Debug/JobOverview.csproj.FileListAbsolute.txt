@@ -18,3 +18,14 @@ D:\Formation GTM ISAGRI\ProjetWF\ProjetWinForms\JobOverview\obj\Debug\JobOvervie
 D:\Formation GTM ISAGRI\ProjetWF\ProjetWinForms\JobOverview\obj\Debug\JobOverview.csproj.GenerateResource.Cache
 D:\Formation GTM ISAGRI\ProjetWF\ProjetWinForms\JobOverview\bin\Debug\JobOverview.exe
 D:\Formation GTM ISAGRI\ProjetWF\ProjetWinForms\JobOverview\bin\Debug\JobOverview.pdb
+D:\Projet Winforms\ProjetWinForms\JobOverview\bin\Debug\JobOverview.exe.config
+D:\Projet Winforms\ProjetWinForms\JobOverview\bin\Debug\JobOverview.exe
+D:\Projet Winforms\ProjetWinForms\JobOverview\bin\Debug\JobOverview.pdb
+D:\Projet Winforms\ProjetWinForms\JobOverview\obj\Debug\JobOverview.csprojResolveAssemblyReference.cache
+D:\Projet Winforms\ProjetWinForms\JobOverview\obj\Debug\JobOverview.FormLogiciel.resources
+D:\Projet Winforms\ProjetWinForms\JobOverview\obj\Debug\JobOverview.MDIForm.resources
+D:\Projet Winforms\ProjetWinForms\JobOverview\obj\Debug\JobOverview.Properties.Resources.resources
+D:\Projet Winforms\ProjetWinForms\JobOverview\obj\Debug\JobOverview.csproj.GenerateResource.Cache
+D:\Projet Winforms\ProjetWinForms\JobOverview\obj\Debug\JobOverview.exe
+D:\Projet Winforms\ProjetWinForms\JobOverview\obj\Debug\JobOverview.pdb
+D:\Projet Winforms\ProjetWinForms\JobOverview\obj\Debug\JobOverview.FormAjoutVersion.resources

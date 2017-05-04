@@ -4,7 +4,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Data;
 
 namespace JobOverview
 {
@@ -16,7 +16,7 @@ namespace JobOverview
         {
             List<Logiciel> listLog = new List<Logiciel>();
 
-            var conx = new SqlConnection(Properties.Settings.Default.JobOverviewConnectionString);
+            var conx = new SqlConnection(Properties.Settings.Default.JobOverviewConnectionStringFlo);
 
             string query = @"select l.CodeLogiciel, l.Nom, m.CodeModule, m.Libelle, m.CodeModuleParent,
                                         v.NumeroVersion, v.Millesime, v.DateOuverture, v.DateSortiePrevue, v.DateSortieReelle,
@@ -38,14 +38,90 @@ namespace JobOverview
             return listLog;
         }
 
-        public static void SupprimerVersion(string codeLogiciel, string codeModule, float numeroVersion)
+        public static void AjouterVersionBDD(Version version, string codeLogiciel)
         {
-            SqlConnection connexion = new SqlConnection(Properties.Settings.Default.JobOverviewConnectionString);
+            SqlConnection connexion = new SqlConnection(Properties.Settings.Default.JobOverviewConnectionStringFlo);
 
             connexion.Open();
             var tran = connexion.BeginTransaction();
 
-            string query = @"";
+            string query = @"insert jo.Version(NumeroVersion, CodeLogiciel, Millesime, DateOuverture, DateSortiePrevue)
+                             values(@NumeroVersion, @CodeLogiciel, @Millesime, @DateOuverture, @DateSortiePrevue);
+                             
+                            insert jo.Release(NumeroRelease, NumeroVersion, CodeLogiciel, DateSetup)
+                            values(@NumeroRelease, @NumeroVersion, @CodeLogiciel, @DateSetup)";
+
+
+            var command1 = new SqlCommand(query, connexion, tran);
+            command1.Parameters.Add(new SqlParameter("@NumeroVersion", DbType.Double));
+            command1.Parameters["@NumeroVersion"].Value = version.NumeroVersion;
+
+            command1.Parameters.Add(new SqlParameter("@CodeLogiciel", DbType.String));
+            command1.Parameters["@CodeLogiciel"].Value = codeLogiciel;
+
+            command1.Parameters.Add(new SqlParameter("@Millesime", DbType.Int16));
+            command1.Parameters["@Millesime"].Value = version.Millésime;
+
+            command1.Parameters.Add(new SqlParameter("@DateOuverture", DbType.Date));
+            command1.Parameters["@DateOuverture"].Value = version.DateOuverture;
+
+            command1.Parameters.Add(new SqlParameter("@DateSortiePrevue", DbType.Date));
+            command1.Parameters["@DateSortiePrevue"].Value = version.DateSortiePrévue;
+
+            command1.Parameters.Add(new SqlParameter("@NumeroRelease", DbType.Int16));
+            command1.Parameters["@NumeroRelease"].Value = version.ListReleases.First().NumeroRelease;
+
+            command1.Parameters.Add(new SqlParameter("@DateSetup", DbType.Date));
+            command1.Parameters["@DateSetup"].Value = version.ListReleases.First().DateSetup;
+
+            try
+            {
+                command1.ExecuteNonQuery();
+                tran.Commit();
+            }
+            catch (Exception)
+            {
+                tran.Rollback();
+                throw;
+            }
+
+        }
+
+        public static void SupprimerVersion(string codeLogiciel, float numeroVersion)
+        {
+            SqlConnection connexion = new SqlConnection(Properties.Settings.Default.JobOverviewConnectionStringFlo);
+
+            connexion.Open();
+            var tran = connexion.BeginTransaction();
+
+            string query = @"delete from jo.Release
+                              from jo.Release
+                              where NumeroVersion = @NumeroVersion and CodeLogiciel = @CodeLogiciel;
+                              
+                              delete from jo.Version
+                              from jo.Version
+                              where NumeroVersion = @NumeroVersion and CodeLogiciel = @CodeLogiciel";
+
+            var param1 = new SqlParameter("@NumeroVersion", DbType.Double);
+            param1.Value = numeroVersion;
+
+            var param2 = new SqlParameter("@CodeLogiciel", DbType.String);
+            param2.Value = codeLogiciel;
+
+            var command1 = new SqlCommand(query, connexion, tran);
+            command1.Parameters.Add(param1);
+            command1.Parameters.Add(param2);
+
+            try
+            {
+                command1.ExecuteNonQuery();
+                tran.Commit();
+            }
+            catch (Exception e)
+            {
+                tran.Rollback();
+                throw;
+            }
 
         }
 
@@ -56,7 +132,7 @@ namespace JobOverview
         {
             while (reader.Read())
             {
-                if (listLog.Any() || !listLog.Where(l => l.CodeLogiciel == reader["CodeLogiciel"].ToString()).Any())
+                if (!listLog.Any() || !listLog.Where(l => l.CodeLogiciel == reader["CodeLogiciel"].ToString()).Any())
                 {
                     // Création d'un logiciel
                     Logiciel log = new Logiciel()
