@@ -8,18 +8,42 @@ namespace JobOverview
 	{
 		// Collection des fenêtres filles
 		public Dictionary<string, Form> ChildForms { get; private set; }
-
-		public MDIForm()
+        //Champs privés
+        private List<TacheProd> _ListTachesProdXml;
+        public MDIForm()
 		{
 			InitializeComponent();
 			ChildForms = new Dictionary<string, Form>();
 
             // TODO : Branchement des menus
             mnLogiciel.Click += (object sender, EventArgs e) => ShowChild("JobOverview.FormLogiciel");
-		}
+            mnTachesProd.Click += (object sender, EventArgs e) => ShowChild("JobOverview.FormTachesProduction");
+            mnImport.Click += MnImport_Click;
+            mnExport.Click += MnExport_Click;
+        }
 
-		// Affichage d'une fenêtre fille
-		private void ShowChild(string name)
+        private void MnExport_Click(object sender, EventArgs e)
+        {
+            var res = MessageBox.Show("Confirmez-vous l'export des données depuis la base?", "Import des données", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
+            if (res == DialogResult.Yes)
+            {
+                //TODO: appeler la méthode qui export
+            }
+        }
+
+        private void MnImport_Click(object sender, EventArgs e)
+        {
+            var res = MessageBox.Show("Confirmez-vous l'import des données dans la base?", "Import des données", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
+            if (res == DialogResult.Yes)
+            {
+                _ListTachesProdXml = DALXmlcs.Importerfichier();
+                
+                DALXmlcs.AjoutTachesProdFromXml(_ListTachesProdXml);
+            }
+        }
+
+        // Affichage d'une fenêtre fille
+        private void ShowChild(string name)
 		{
 			// Dans la collection des fenêtres filles, on recherche une fenêtre
 			// dont le nom correspond à celui passé en paramètre...
