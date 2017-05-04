@@ -45,15 +45,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MDIForm.cs">
+    <Compile Include="DALLogiciel.cs" />
+    <Compile Include="FORMS\FormLogiciel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MDIForm.Designer.cs">
+    <Compile Include="FORMS\FormLogiciel.Designer.cs">
+      <DependentUpon>FormLogiciel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\MDIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\MDIForm.Designer.cs">
       <DependentUpon>MDIForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="JobOverviewDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>JobOverviewDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POCO\Logiciel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="MDIForm.resx">
+    <EmbeddedResource Include="FORMS\FormLogiciel.resx">
+      <DependentUpon>FormLogiciel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\MDIForm.resx">
       <DependentUpon>MDIForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -65,8 +81,19 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="JobOverviewDataSet.xsc">
+      <DependentUpon>JobOverviewDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="JobOverviewDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>JobOverviewDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="JobOverviewDataSet.xss">
+      <DependentUpon>JobOverviewDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <Compile Include="Properties\Settings.Designer.cs">
@@ -78,5 +105,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
