@@ -30,18 +30,19 @@
         {
             this.cmbLogiciel = new System.Windows.Forms.ComboBox();
             this.lblLogiciel = new System.Windows.Forms.Label();
-            this.dgvVersion = new System.Windows.Forms.DataGridView();
             this.btnAjoutVersion = new System.Windows.Forms.Button();
             this.btnSupprVersion = new System.Windows.Forms.Button();
-            this.dgvModule = new System.Windows.Forms.DataGridView();
+            this.dgvVersion = new System.Windows.Forms.DataGridView();
+            this.lbModule = new System.Windows.Forms.ListBox();
+            this.lblModule = new System.Windows.Forms.Label();
+            this.lblVersion = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvVersion)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvModule)).BeginInit();
             this.SuspendLayout();
             // 
             // cmbLogiciel
             // 
             this.cmbLogiciel.FormattingEnabled = true;
-            this.cmbLogiciel.Location = new System.Drawing.Point(105, 30);
+            this.cmbLogiciel.Location = new System.Drawing.Point(112, 8);
             this.cmbLogiciel.Name = "cmbLogiciel";
             this.cmbLogiciel.Size = new System.Drawing.Size(140, 21);
             this.cmbLogiciel.TabIndex = 0;
@@ -50,19 +51,11 @@
             // 
             this.lblLogiciel.AutoSize = true;
             this.lblLogiciel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLogiciel.Location = new System.Drawing.Point(23, 31);
+            this.lblLogiciel.Location = new System.Drawing.Point(30, 9);
             this.lblLogiciel.Name = "lblLogiciel";
-            this.lblLogiciel.Size = new System.Drawing.Size(64, 16);
+            this.lblLogiciel.Size = new System.Drawing.Size(63, 16);
             this.lblLogiciel.TabIndex = 1;
             this.lblLogiciel.Text = "Logiciel";
-            // 
-            // dgvVersion
-            // 
-            this.dgvVersion.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvVersion.Location = new System.Drawing.Point(14, 78);
-            this.dgvVersion.Name = "dgvVersion";
-            this.dgvVersion.Size = new System.Drawing.Size(418, 325);
-            this.dgvVersion.TabIndex = 2;
             // 
             // btnAjoutVersion
             // 
@@ -84,22 +77,52 @@
             this.btnSupprVersion.Text = "-";
             this.btnSupprVersion.UseVisualStyleBackColor = true;
             // 
-            // dgvModule
+            // dgvVersion
             // 
-            this.dgvModule.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvModule.Location = new System.Drawing.Point(465, 78);
-            this.dgvModule.Name = "dgvModule";
-            this.dgvModule.Size = new System.Drawing.Size(418, 325);
-            this.dgvModule.TabIndex = 2;
+            this.dgvVersion.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvVersion.Location = new System.Drawing.Point(26, 72);
+            this.dgvVersion.Name = "dgvVersion";
+            this.dgvVersion.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
+            this.dgvVersion.Size = new System.Drawing.Size(574, 325);
+            this.dgvVersion.TabIndex = 2;
+            // 
+            // lbModule
+            // 
+            this.lbModule.FormattingEnabled = true;
+            this.lbModule.Location = new System.Drawing.Point(663, 72);
+            this.lbModule.Name = "lbModule";
+            this.lbModule.Size = new System.Drawing.Size(183, 316);
+            this.lbModule.TabIndex = 6;
+            // 
+            // lblModule
+            // 
+            this.lblModule.AutoSize = true;
+            this.lblModule.Location = new System.Drawing.Point(660, 38);
+            this.lblModule.Name = "lblModule";
+            this.lblModule.Size = new System.Drawing.Size(54, 13);
+            this.lblModule.TabIndex = 7;
+            this.lblModule.Text = "Modules";
+            // 
+            // lblVersion
+            // 
+            this.lblVersion.AutoSize = true;
+            this.lblVersion.Location = new System.Drawing.Point(33, 49);
+            this.lblVersion.Name = "lblVersion";
+            this.lblVersion.Size = new System.Drawing.Size(121, 13);
+            this.lblVersion.TabIndex = 8;
+            this.lblVersion.Text = "Versions et releases";
             // 
             // FormLogiciel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(909, 469);
+            this.Controls.Add(this.lblVersion);
+            this.Controls.Add(this.lblModule);
+            this.Controls.Add(this.lbModule);
             this.Controls.Add(this.btnSupprVersion);
             this.Controls.Add(this.btnAjoutVersion);
-            this.Controls.Add(this.dgvModule);
             this.Controls.Add(this.dgvVersion);
             this.Controls.Add(this.lblLogiciel);
             this.Controls.Add(this.cmbLogiciel);
@@ -107,7 +130,6 @@
             this.Name = "FormLogiciel";
             this.Text = "FormLogiciel";
             ((System.ComponentModel.ISupportInitialize)(this.dgvVersion)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvModule)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -117,9 +139,11 @@
 
         private System.Windows.Forms.ComboBox cmbLogiciel;
         private System.Windows.Forms.Label lblLogiciel;
-        private System.Windows.Forms.DataGridView dgvVersion;
         private System.Windows.Forms.Button btnAjoutVersion;
         private System.Windows.Forms.Button btnSupprVersion;
-        private System.Windows.Forms.DataGridView dgvModule;
+        private System.Windows.Forms.DataGridView dgvVersion;
+        private System.Windows.Forms.ListBox lbModule;
+        private System.Windows.Forms.Label lblModule;
+        private System.Windows.Forms.Label lblVersion;
     }
 }
