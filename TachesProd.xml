@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TachesProduction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="SEPARATION" Version="1">
+    <Travaux>
+      <Travail Date="2016-01-07T00:00:00" Heures="2" TauxProduct="1" />
+      <Travail Date="2016-01-08T00:00:00" Heures="6" TauxProduct="1" />
+      <Travail Date="2016-01-09T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-01-10T00:00:00" Heures="2" TauxProduct="1" />
+      <Travail Date="2016-01-11T00:00:00" Heures="6" TauxProduct="1" />
+      <Travail Date="2016-01-12T00:00:00" Heures="4" TauxProduct="1" />
+      <Travail Date="2016-01-13T00:00:00" Heures="4" TauxProduct="1" />
+      <Travail Date="2016-01-14T00:00:00" Heures="8" TauxProduct="1" />
+    </Travaux>
+  </TacheProd>
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="VAR_ALLELE" Version="1">
+    <Travaux>
+      <Travail Date="2016-01-19T00:00:00" Heures="2" TauxProduct="1" />
+      <Travail Date="2016-01-20T00:00:00" Heures="6" TauxProduct="1" />
+      <Travail Date="2016-01-21T00:00:00" Heures="6" TauxProduct="1" />
+      <Travail Date="2016-01-22T00:00:00" Heures="2" TauxProduct="1" />
+      <Travail Date="2016-01-23T00:00:00" Heures="4" TauxProduct="1" />
+      <Travail Date="2016-01-24T00:00:00" Heures="4" TauxProduct="1" />
+      <Travail Date="2016-01-29T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-01-30T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-01-31T00:00:00" Heures="8" TauxProduct="1" />
+    </Travaux>
+  </TacheProd>
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="SEPARATION" Version="1">
+    <Travaux>
+      <Travail Date="2016-01-07T00:00:00" Heures="6" TauxProduct="1" />
+      <Travail Date="2016-01-08T00:00:00" Heures="2" TauxProduct="1" />
+      <Travail Date="2016-01-10T00:00:00" Heures="6" TauxProduct="1" />
+      <Travail Date="2016-01-11T00:00:00" Heures="2" TauxProduct="1" />
+      <Travail Date="2016-01-12T00:00:00" Heures="4" TauxProduct="1" />
+      <Travail Date="2016-01-13T00:00:00" Heures="4" TauxProduct="1" />
+      <Travail Date="2016-01-15T00:00:00" Heures="8" TauxProduct="1" />
+    </Travaux>
+  </TacheProd>
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="VAR_ALLELE" Version="1">
+    <Travaux>
+      <Travail Date="2016-01-19T00:00:00" Heures="6" TauxProduct="1" />
+      <Travail Date="2016-01-20T00:00:00" Heures="2" TauxProduct="1" />
+      <Travail Date="2016-01-21T00:00:00" Heures="2" TauxProduct="1" />
+      <Travail Date="2016-01-22T00:00:00" Heures="6" TauxProduct="1" />
+      <Travail Date="2016-01-23T00:00:00" Heures="4" TauxProduct="1" />
+      <Travail Date="2016-01-24T00:00:00" Heures="4" TauxProduct="1" />
+      <Travail Date="2016-02-01T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-02-02T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-02-03T00:00:00" Heures="8" TauxProduct="1" />
+    </Travaux>
+  </TacheProd>
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="MARQUAGE" Version="1">
+    <Travaux>
+      <Travail Date="2016-02-04T00:00:00" Heures="2" TauxProduct="1" />
+      <Travail Date="2016-02-05T00:00:00" Heures="6" TauxProduct="1" />
+      <Travail Date="2016-02-06T00:00:00" Heures="6" TauxProduct="1" />
+      <Travail Date="2016-02-07T00:00:00" Heures="2" TauxProduct="1" />
+      <Travail Date="2016-02-08T00:00:00" Heures="4" TauxProduct="1" />
+      <Travail Date="2016-02-09T00:00:00" Heures="4" TauxProduct="1" />
+      <Travail Date="2016-02-13T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-02-14T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-02-15T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-02-16T00:00:00" Heures="2" TauxProduct="1" />
+      <Travail Date="2016-02-17T00:00:00" Heures="6" TauxProduct="1" />
+      <Travail Date="2016-02-18T00:00:00" Heures="6" TauxProduct="1" />
+      <Travail Date="2016-02-19T00:00:00" Heures="2" TauxProduct="1" />
+      <Travail Date="2016-02-20T00:00:00" Heures="4" TauxProduct="1" />
+      <Travail Date="2016-02-21T00:00:00" Heures="4" TauxProduct="1" />
+      <Travail Date="2016-02-22T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-02-23T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-02-24T00:00:00" Heures="8" TauxProduct="1" />
+    </Travaux>
+  </TacheProd>
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="UTIL_DROITS" Version="1">
+    <Travaux>
+      <Travail Date="2016-01-19T00:00:00" Heures="6" TauxProduct="1" />
+      <Travail Date="2016-01-20T00:00:00" Heures="2" TauxProduct="1" />
+      <Travail Date="2016-01-21T00:00:00" Heures="2" TauxProduct="1" />
+      <Travail Date="2016-01-22T00:00:00" Heures="6" TauxProduct="1" />
+      <Travail Date="2016-01-23T00:00:00" Heures="4" TauxProduct="1" />
+      <Travail Date="2016-01-24T00:00:00" Heures="4" TauxProduct="1" />
+      <Travail Date="2016-01-25T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-01-26T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-01-27T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-01-28T00:00:00" Heures="8" TauxProduct="1" />
+    </Travaux>
+  </TacheProd>
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="MARQUAGE" Version="1">
+    <Travaux>
+      <Travail Date="2016-02-02T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-02-03T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-02-16T00:00:00" Heures="6" TauxProduct="1" />
+      <Travail Date="2016-02-17T00:00:00" Heures="2" TauxProduct="1" />
+      <Travail Date="2016-02-18T00:00:00" Heures="2" TauxProduct="1" />
+      <Travail Date="2016-02-19T00:00:00" Heures="6" TauxProduct="1" />
+      <Travail Date="2016-02-20T00:00:00" Heures="4" TauxProduct="1" />
+      <Travail Date="2016-02-21T00:00:00" Heures="4" TauxProduct="1" />
+      <Travail Date="2016-02-25T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-02-26T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-02-27T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-02-28T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-03-01T00:00:00" Heures="8" TauxProduct="1" />
+    </Travaux>
+  </TacheProd>
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="POLYMORPHISME" Version="1">
+    <Travaux>
+      <Travail Date="2016-02-03T00:00:00" Heures="2" TauxProduct="1" />
+      <Travail Date="2016-02-04T00:00:00" Heures="6" TauxProduct="1" />
+      <Travail Date="2016-02-05T00:00:00" Heures="6" TauxProduct="1" />
+      <Travail Date="2016-02-06T00:00:00" Heures="2" TauxProduct="1" />
+      <Travail Date="2016-02-07T00:00:00" Heures="4" TauxProduct="1" />
+      <Travail Date="2016-02-08T00:00:00" Heures="4" TauxProduct="1" />
+      <Travail Date="2016-02-09T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-02-10T00:00:00" Heures="8" TauxProduct="1" />
+    </Travaux>
+  </TacheProd>
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="POLYMORPHISME" Version="1">
+    <Travaux>
+      <Travail Date="2016-02-03T00:00:00" Heures="6" TauxProduct="1" />
+      <Travail Date="2016-02-04T00:00:00" Heures="2" TauxProduct="1" />
+      <Travail Date="2016-02-05T00:00:00" Heures="2" TauxProduct="1" />
+      <Travail Date="2016-02-06T00:00:00" Heures="6" TauxProduct="1" />
+      <Travail Date="2016-02-07T00:00:00" Heures="4" TauxProduct="1" />
+      <Travail Date="2016-02-08T00:00:00" Heures="4" TauxProduct="1" />
+      <Travail Date="2016-02-11T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-02-12T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-02-13T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-02-14T00:00:00" Heures="2" TauxProduct="1" />
+    </Travaux>
+  </TacheProd>
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="UTIL_DROITS" Version="1">
+    <Travaux>
+      <Travail Date="2016-01-08T00:00:00" Heures="6" TauxProduct="1" />
+      <Travail Date="2016-01-09T00:00:00" Heures="2" TauxProduct="1" />
+      <Travail Date="2016-01-10T00:00:00" Heures="2" TauxProduct="1" />
+      <Travail Date="2016-01-11T00:00:00" Heures="6" TauxProduct="1" />
+      <Travail Date="2016-01-13T00:00:00" Heures="4" TauxProduct="1" />
+      <Travail Date="2016-01-14T00:00:00" Heures="4" TauxProduct="1" />
+      <Travail Date="2016-01-15T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-01-16T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-01-17T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-01-18T00:00:00" Heures="8" TauxProduct="1" />
+    </Travaux>
+  </TacheProd>
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="UTIL_DROITS" Version="1">
+    <Travaux>
+      <Travail Date="2016-01-07T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-01-08T00:00:00" Heures="2" TauxProduct="1" />
+      <Travail Date="2016-01-09T00:00:00" Heures="6" TauxProduct="1" />
+      <Travail Date="2016-01-10T00:00:00" Heures="6" TauxProduct="1" />
+      <Travail Date="2016-01-11T00:00:00" Heures="2" TauxProduct="1" />
+      <Travail Date="2016-01-12T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-01-13T00:00:00" Heures="4" TauxProduct="1" />
+      <Travail Date="2016-01-14T00:00:00" Heures="4" TauxProduct="1" />
+    </Travaux>
+  </TacheProd>
+  <TacheProd Libelle="DEV Séparation" Activite="DEV" Personne="RBEAUMONT" DureePrev="8" DureeRest="0" Logiciel="GENOMICA" Module="SEPARATION" Version="1">
+    <Travaux>
+      <Travail Date="2016-01-16T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-01-17T00:00:00" Heures="8" TauxProduct="1" />
+    </Travaux>
+  </TacheProd>
+  <TacheProd Libelle="AF Variations alléliques" Activite="ANF" Personne="RBEAUMONT" DureePrev="16" DureeRest="0" Logiciel="GENOMICA" Module="VAR_ALLELE" Version="1">
+    <Travaux>
+      <Travail Date="2016-01-19T00:00:00" Heures="6" TauxProduct="1" />
+      <Travail Date="2016-01-20T00:00:00" Heures="2" TauxProduct="1" />
+      <Travail Date="2016-01-21T00:00:00" Heures="2" TauxProduct="1" />
+      <Travail Date="2016-01-22T00:00:00" Heures="6" TauxProduct="1" />
+    </Travaux>
+  </TacheProd>
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="MARQUAGE" Version="1">
+    <Travaux>
+      <Travail Date="2016-02-04T00:00:00" Heures="6" TauxProduct="1" />
+      <Travail Date="2016-02-05T00:00:00" Heures="2" TauxProduct="1" />
+      <Travail Date="2016-02-06T00:00:00" Heures="2" TauxProduct="1" />
+      <Travail Date="2016-02-07T00:00:00" Heures="6" TauxProduct="1" />
+      <Travail Date="2016-02-08T00:00:00" Heures="4" TauxProduct="1" />
+      <Travail Date="2016-02-09T00:00:00" Heures="4" TauxProduct="1" />
+      <Travail Date="2016-02-10T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-02-11T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-02-12T00:00:00" Heures="8" TauxProduct="1" />
+    </Travaux>
+  </TacheProd>
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="POLYMORPHISME" Version="1">
+    <Travaux>
+      <Travail Date="2016-01-19T00:00:00" Heures="2" TauxProduct="1" />
+      <Travail Date="2016-01-20T00:00:00" Heures="6" TauxProduct="1" />
+      <Travail Date="2016-01-21T00:00:00" Heures="6" TauxProduct="1" />
+      <Travail Date="2016-01-22T00:00:00" Heures="2" TauxProduct="1" />
+      <Travail Date="2016-01-23T00:00:00" Heures="4" TauxProduct="1" />
+      <Travail Date="2016-01-24T00:00:00" Heures="4" TauxProduct="1" />
+      <Travail Date="2016-01-29T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-01-30T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-01-31T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-02-01T00:00:00" Heures="8" TauxProduct="1" />
+      <Travail Date="2016-02-02T00:00:00" Heures="8" TauxProduct="1" />
+    </Travaux>
+  </TacheProd>
+</TachesProduction>
