@@ -6,18 +6,29 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using JobOverview.Properties;
+using System.Configuration;
 
 namespace JobOverview
 {
+
     public static class DALLogiciel
     {
+        static private string _chaineConnexion;
+
+        static DALLogiciel()
+        {
+            foreach (SettingsProperty prop in Properties.Settings.Default.Properties)
+                if (prop.Name == "SelectedConnexionString")
+                    _chaineConnexion = prop.DefaultValue.ToString(); 
+        }
+
 
         #region Méthodes Publiques
         public static List<Logiciel> GetLogiciels()
         {
             List<Logiciel> listLog = new List<Logiciel>();
 
-            var conx = new SqlConnection(Properties.Settings.Default.JobOverviewConnectionString);
+            var conx = new SqlConnection(_chaineConnexion);
 
             string query = @"select l.CodeLogiciel, l.Nom, m.CodeModule, m.Libelle, m.CodeModuleParent,
                                         v.NumeroVersion, v.Millesime, v.DateOuverture, v.DateSortiePrevue, v.DateSortieReelle,
@@ -41,7 +52,7 @@ namespace JobOverview
 
         public static void AjouterVersionBDD(Version version, string codeLogiciel)
         {
-            SqlConnection connexion = new SqlConnection(Properties.Settings.Default.JobOverviewConnectionString);
+            SqlConnection connexion = new SqlConnection(_chaineConnexion);
 
             connexion.Open();
             var tran = connexion.BeginTransaction();
@@ -90,7 +101,7 @@ namespace JobOverview
 
         public static void SupprimerVersionBDD(string codeLogiciel, float numeroVersion)
         {
-            SqlConnection connexion = new SqlConnection(Properties.Settings.Default.JobOverviewConnectionString);
+            SqlConnection connexion = new SqlConnection(_chaineConnexion);
 
             connexion.Open();
             var tran = connexion.BeginTransaction();
@@ -147,7 +158,7 @@ namespace JobOverview
             param.Value = tableProd;
 
 
-            using (var cnx = new SqlConnection(Settings.Default.JobOverviewConnectionString))
+            using (var cnx = new SqlConnection(_chaineConnexion))
             {
                 cnx.Open();
                 SqlTransaction tran = cnx.BeginTransaction();
@@ -195,14 +206,14 @@ namespace JobOverview
                 {
                     // Création d'un module
                     Module mod = new Module();
-                    
+
                     mod.CodeModule = reader["CodeModule"].ToString();
                     mod.LibelléModule = reader["Libelle"].ToString();
 
                     listLog.Last().ListModules.Add(mod);
                 }
 
-                if (!listLog.Last().ListVersions.Where(m => m.NumeroVersion == (float) reader["NumeroVersion"]).Any())
+                if (!listLog.Last().ListVersions.Where(m => m.NumeroVersion == (float)reader["NumeroVersion"]).Any())
                 {
                     // Création d'une version
                     Version vers = new Version() { ListReleases = new List<Release>() };
@@ -320,7 +331,7 @@ namespace JobOverview
 
 
 
-        
-       
+
+
     }
 }

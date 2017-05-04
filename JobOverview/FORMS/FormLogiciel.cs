@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
 using System.Drawing;
 using System.Linq;
@@ -22,6 +23,7 @@ namespace JobOverview
             cmbLogiciel.SelectionChangeCommitted += CmbLogiciel_SelectionChangeCommitted;
             btnSupprVersion.Click += BtnSupprVersion_Click;
             btnAjoutVersion.Click += BtnAjoutVersion_Click;
+
         }
 
         private void BtnAjoutVersion_Click(object sender, EventArgs e)

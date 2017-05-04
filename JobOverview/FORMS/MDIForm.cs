@@ -24,6 +24,13 @@ namespace JobOverview
             mnExport.Click += MnExport_Click;
         }
 
+        protected override void OnLoad(EventArgs e)
+        {
+            new FormConfig().ShowDialog();
+            base.OnLoad(e);
+        }
+
+
         private void MnExport_Click(object sender, EventArgs e)
         {
             var res = MessageBox.Show("Confirmez-vous l'export des données depuis la base?", "Export des données", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
@@ -59,7 +66,7 @@ namespace JobOverview
                 catch (Exception)
                 {
                     MessageBox.Show("Attention : L'import des données n'a pas été executé correctement", "Import des données");
-                    throw;
+                    // TODO : gérer l'erreur si nécessaire
                 }
             }
         }

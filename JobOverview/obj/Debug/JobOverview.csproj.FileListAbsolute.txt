@@ -20,3 +20,17 @@ D:\Formation GTM ISAGRI\ProjetWF\ProjetWinForms\JobOverview\bin\Debug\JobOvervie
 D:\Formation GTM ISAGRI\ProjetWF\ProjetWinForms\JobOverview\bin\Debug\JobOverview.pdb
 D:\Formation GTM ISAGRI\ProjetWF\ProjetWinForms\JobOverview\obj\Debug\JobOverview.FormTachesProduction.resources
 D:\Formation GTM ISAGRI\ProjetWF\ProjetWinForms\JobOverview\obj\Debug\JobOverview.FormAjoutVersion.resources
+C:\Users\Florian\Source\Repos\ProjetWinForms\JobOverview\bin\Debug\JobOverview.exe.config
+C:\Users\Florian\Source\Repos\ProjetWinForms\JobOverview\bin\Debug\JobOverview.exe
+C:\Users\Florian\Source\Repos\ProjetWinForms\JobOverview\bin\Debug\JobOverview.pdb
+C:\Users\Florian\Source\Repos\ProjetWinForms\JobOverview\obj\Debug\JobOverview.csprojResolveAssemblyReference.cache
+C:\Users\Florian\Source\Repos\ProjetWinForms\JobOverview\obj\Debug\JobOverview.FormConfig.resources
+C:\Users\Florian\Source\Repos\ProjetWinForms\JobOverview\obj\Debug\JobOverview.FormAjoutVersion.resources
+C:\Users\Florian\Source\Repos\ProjetWinForms\JobOverview\obj\Debug\JobOverview.FormLogiciel.resources
+C:\Users\Florian\Source\Repos\ProjetWinForms\JobOverview\obj\Debug\JobOverview.MDIForm.resources
+C:\Users\Florian\Source\Repos\ProjetWinForms\JobOverview\obj\Debug\JobOverview.FormTachesProduction.resources
+C:\Users\Florian\Source\Repos\ProjetWinForms\JobOverview\obj\Debug\JobOverview.Properties.Resources.resources
+C:\Users\Florian\Source\Repos\ProjetWinForms\JobOverview\obj\Debug\JobOverview.csproj.GenerateResource.Cache
+C:\Users\Florian\Source\Repos\ProjetWinForms\JobOverview\obj\Debug\JobOverview.exe
+C:\Users\Florian\Source\Repos\ProjetWinForms\JobOverview\obj\Debug\JobOverview.pdb
+C:\Users\Florian\Source\Repos\ProjetWinForms\JobOverview\obj\Debug\JobOverview.FormTachesAnnexes.resources
