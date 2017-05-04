@@ -22,7 +22,6 @@ namespace JobOverview
                     _chaineConnexion = prop.DefaultValue.ToString(); 
         }
 
-
         #region Méthodes Publiques
         public static List<Logiciel> GetLogiciels()
         {
@@ -180,6 +179,47 @@ namespace JobOverview
             }
         }
 
+        public static List<Activité> GetActivitésAnnexes()
+        {
+            List<Activité> listActivitésAnx = new List<Activité>();
+
+            var conx = new SqlConnection(_chaineConnexion);
+
+            string query = @"select CodeActivite, Libelle from jo.Activite where Annexe = 1";
+
+            var com = new SqlCommand(query, conx);
+            conx.Open();
+
+            using (SqlDataReader reader = com.ExecuteReader())
+            {
+                GetActivitésFromDataReader(reader, listActivitésAnx);
+            }
+
+            return listActivitésAnx;
+        }
+
+        public static List<Personne> GetPersonnes()
+        {
+            List<Personne> listPersonnes = new List<Personne>();
+
+            var conx = new SqlConnection(_chaineConnexion);
+
+            string query = @"select p.Login, p.Nom, p.Prenom, p.Manager, p.TauxProductivite, m.CodeMetier, m.Libelle LibelleMetier, s.Nom NomService
+                             from jo.Personne p
+                             inner join jo.Metier m on p.CodeMetier = m.CodeMetier
+                             inner join jo.Service s on m.CodeService = s.CodeService";
+
+            var com = new SqlCommand(query, conx);
+            conx.Open();
+
+            using (SqlDataReader reader = com.ExecuteReader())
+            {
+                GetPersonnesFromDataReader(reader, listPersonnes);
+            }
+
+            return listPersonnes;
+        }
+
         #endregion
 
         #region Méthodes Privées
@@ -233,6 +273,29 @@ namespace JobOverview
                 rel.DateSetup = (DateTime)reader["DateSetup"];
 
                 listLog.Last().ListVersions.Last().ListReleases.Add(rel);
+            }
+        }
+
+        private static void GetActivitésFromDataReader(SqlDataReader reader, List<Activité> listActivitésAnx)
+        {
+            while (reader.Read())
+            {
+                Activité act = new Activité();
+
+                act.CodeActivité = reader["CodeActivite"].ToString();
+                act.Libellé = reader["Libelle"].ToString();
+
+                listActivitésAnx.Add(act);
+            }
+        }
+
+        private static void GetPersonnesFromDataReader(SqlDataReader reader, List<Personne> listPersonnes)
+        {
+            while (reader.Read())
+            {
+                Personne pers = new Personne() {  }
+
+
             }
         }
 
@@ -325,6 +388,7 @@ namespace JobOverview
             }
             return table;
         }
+
         #endregion
 
 
@@ -335,3 +399,4 @@ namespace JobOverview
 
     }
 }
+        

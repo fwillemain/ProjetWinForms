@@ -12,7 +12,8 @@ namespace JobOverview
 {
     public partial class FormTachesAnnexes : Form
     {
-        private List<TacheProd>
+        private List<Activité> _lstActivitésAnx;
+        private List<Personne> _lstPersonnes;
 
         public FormTachesAnnexes()
         {
@@ -21,14 +22,16 @@ namespace JobOverview
 
         protected override void OnLoad(EventArgs e)
         {
-            _lstLogiciels = DALLogiciel.GetLogiciels();
+            _lstActivitésAnx = DALLogiciel.GetActivitésAnnexes();
+            // TODO : récupérer listePersonne
 
-            cmbLogiciel.DataSource = _lstLogiciels.Select(l => new { l.NomLogiciel, l.CodeLogiciel }).ToList();
+            //cbPersonne.DataSource = _
             #region Paramétrage cmbLogiciel
-            cmbLogiciel.DisplayMember = "NomLogiciel";
-            cmbLogiciel.ValueMember = "CodeLogiciel";
-            cmbLogiciel.SelectedItem = null;
-            cmbLogiciel.DropDownStyle = ComboBoxStyle.DropDownList;
+            // TODO : finir param
+            //cbPersonne.DisplayMember = ;
+            //cbPersonne.ValueMember = ;
+            cbPersonne.SelectedItem = null;
+            cbPersonne.DropDownStyle = ComboBoxStyle.DropDownList;
             #endregion
 
 

@@ -88,10 +88,13 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>JobOverviewDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="POCO\Activité.cs" />
+    <Compile Include="POCO\Métier.cs" />
+    <Compile Include="POCO\Personne.cs" />
     <Compile Include="POCO\Logiciel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Tache.cs" />
+    <Compile Include="POCO\Tache.cs" />
     <EmbeddedResource Include="FORMS\FormConfig.resx">
       <DependentUpon>FormConfig.cs</DependentUpon>
     </EmbeddedResource>
