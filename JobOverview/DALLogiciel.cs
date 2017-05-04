@@ -88,7 +88,7 @@ namespace JobOverview
 
         }
 
-        public static void SupprimerVersion(string codeLogiciel, float numeroVersion)
+        public static void SupprimerVersionBDD(string codeLogiciel, float numeroVersion)
         {
             SqlConnection connexion = new SqlConnection(Properties.Settings.Default.JobOverviewConnectionString);
 

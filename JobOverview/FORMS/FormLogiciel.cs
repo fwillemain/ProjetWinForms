@@ -59,7 +59,7 @@ namespace JobOverview
                 {
                     foreach (DataGridViewRow row in dgvVersion.SelectedRows)
                     {
-                        DALLogiciel.SupprimerVersion(cmbLogiciel.SelectedValue.ToString(), (float)row.Cells["NumeroVersion"].Value);
+                        DALLogiciel.SupprimerVersionBDD(cmbLogiciel.SelectedValue.ToString(), (float)row.Cells["NumeroVersion"].Value);
                         MiseAJourUI();
                     }
                 }
