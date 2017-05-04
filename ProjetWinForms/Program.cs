@@ -18,6 +18,8 @@ namespace ProjetWinForms
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
             // Je fais un test
+
+            char    ;
         }
     }
 }
