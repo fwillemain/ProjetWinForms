@@ -33,5 +33,16 @@ namespace JobOverview.Properties {
                 return ((string)(this["JobOverviewConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=FWILLEMAIN17-DE\\IP08R2;Initial Catalog=JobOverview;Integrated Securit" +
+            "y=True")]
+        public string JobOverviewConnectionStringFlo {
+            get {
+                return ((string)(this["JobOverviewConnectionStringFlo"]));
+            }
+        }
     }
 }
