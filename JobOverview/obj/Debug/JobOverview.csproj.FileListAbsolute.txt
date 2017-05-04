@@ -8,3 +8,6 @@
 \\Sfiles02\trv2\ECHANGES\FWillemain\ProjetWinforms\JobOverview\obj\Debug\JobOverview.csproj.GenerateResource.Cache
 \\Sfiles02\trv2\ECHANGES\FWillemain\ProjetWinforms\JobOverview\obj\Debug\JobOverview.exe
 \\Sfiles02\trv2\ECHANGES\FWillemain\ProjetWinforms\JobOverview\obj\Debug\JobOverview.pdb
+D:\Projet Winforms\ProjetWinForms\JobOverview\bin\Debug\JobOverview.exe.config
+D:\Projet Winforms\ProjetWinForms\JobOverview\obj\Debug\JobOverview.exe
+D:\Projet Winforms\ProjetWinForms\JobOverview\obj\Debug\JobOverview.pdb
