@@ -31,7 +31,7 @@ namespace JobOverview
 
         protected override void OnLoad(EventArgs e)
         {
-            this.ControlBox = false;
+           // this.ControlBox = false;
 
             List<object> lstCnxString = new List<object>();
 

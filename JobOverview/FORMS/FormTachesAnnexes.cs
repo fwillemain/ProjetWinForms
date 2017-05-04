@@ -18,22 +18,49 @@ namespace JobOverview
         public FormTachesAnnexes()
         {
             InitializeComponent();
+            cbPersonne.SelectionChangeCommitted += CbPersonne_SelectionChangeCommitted;
+            // TODO : gérer la modification des check box avec une liste à modifier (voir FormEmployee sur sln ADO)
+        }
+
+        private void CbPersonne_SelectionChangeCommitted(object sender, EventArgs e)
+        {
+            string loginSelected = cbPersonne.SelectedValue.ToString();
+
+            dgvTachesAnx.DataSource = _lstActivitésAnx;
+            dgvTachesAnx.Columns["CodeActivité"].Visible = false;
+
+            // TODO : vérifier le check des box
+            foreach(DataGridViewRow row in dgvTachesAnx.Rows)
+            {
+                string codeActivitéCourant = ((DataGridViewCheckBoxCell)row.Cells["CodeActivité"]).Value.ToString();
+                bool check = _lstPersonnes.Where(p => p.Login == loginSelected).First().ListTaches.Where(t => t.CodeActivité == codeActivitéCourant).Any();
+                ((DataGridViewCheckBoxCell)row.Cells["CheckedColumn"]).Value = check;
+            }
         }
 
         protected override void OnLoad(EventArgs e)
         {
             _lstActivitésAnx = DALLogiciel.GetActivitésAnnexes();
-            // TODO : récupérer listePersonne
+            _lstPersonnes = DALLogiciel.GetPersonnes();
+            // TODO : vérifier le remplissage des deux listes
 
-            //cbPersonne.DataSource = _
+            cbPersonne.DataSource = _lstPersonnes.Select(p => new { NomComplet = p.Nom + " " + p.Prénom, p.Login }).ToList();
             #region Paramétrage cmbLogiciel
-            // TODO : finir param
-            //cbPersonne.DisplayMember = ;
-            //cbPersonne.ValueMember = ;
+            cbPersonne.DisplayMember = "NomComplet";
+            cbPersonne.ValueMember = "Login";
             cbPersonne.SelectedItem = null;
             cbPersonne.DropDownStyle = ComboBoxStyle.DropDownList;
             #endregion
 
+            DataGridViewCheckBoxColumn checkedColumn = new DataGridViewCheckBoxColumn()
+            {
+                Name = "CheckedColumn",
+                FalseValue = false,
+                TrueValue = true,
+                Visible = true
+            };
+            dgvTachesAnx.Columns.Add(checkedColumn);
+            // TODO : finir param
 
             base.OnLoad(e);
         }

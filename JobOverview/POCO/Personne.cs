@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace JobOverview
 {
+
     public class Personne
     {
         public string Login { get; set; }
@@ -14,6 +12,6 @@ namespace JobOverview
         public Métier Métier { get; set; }
         public string LoginManager { get; set; }
         public float TauxProductivité { get; set; }
-        List<Tache> ListTaches { get; set; }
+        public List<Tache> ListTaches { get; set; }
     }
 }

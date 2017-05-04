@@ -26,7 +26,11 @@ namespace JobOverview
 
         protected override void OnLoad(EventArgs e)
         {
-            new FormConfig().ShowDialog();
+            var result = new FormConfig().ShowDialog();
+
+            if (result != DialogResult.OK)
+                Close();
+
             base.OnLoad(e);
         }
 

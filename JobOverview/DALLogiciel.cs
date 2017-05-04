@@ -19,7 +19,7 @@ namespace JobOverview
         {
             foreach (SettingsProperty prop in Properties.Settings.Default.Properties)
                 if (prop.Name == "SelectedConnexionString")
-                    _chaineConnexion = prop.DefaultValue.ToString(); 
+                    _chaineConnexion = prop.DefaultValue.ToString();
         }
 
         #region Méthodes Publiques
@@ -204,10 +204,12 @@ namespace JobOverview
 
             var conx = new SqlConnection(_chaineConnexion);
 
-            string query = @"select p.Login, p.Nom, p.Prenom, p.Manager, p.TauxProductivite, m.CodeMetier, m.Libelle LibelleMetier, s.Nom NomService
+            string query = @"select p.Login, p.Nom, p.Prenom, p.Manager, p.TauxProductivite, m.CodeMetier, m.Libelle LibelleMetier, 
+                                                s.Nom NomService, t.Libelle, t.CodeActivite
                              from jo.Personne p
                              inner join jo.Metier m on p.CodeMetier = m.CodeMetier
-                             inner join jo.Service s on m.CodeService = s.CodeService";
+                             inner join jo.Service s on m.CodeService = s.CodeService
+                             inner join jo.Tache t on p.Login = t.Login";
 
             var com = new SqlCommand(query, conx);
             conx.Open();
@@ -293,9 +295,29 @@ namespace JobOverview
         {
             while (reader.Read())
             {
-                Personne pers = new Personne() {  }
+                Personne pers = new Personne() { ListTaches = new List<Tache>() };
 
+                pers.Login = reader["Login"].ToString();
+                pers.Nom = reader["Nom"].ToString();
+                pers.Prénom = reader["Prenom"].ToString();
+                pers.Métier = new Métier()
+                {
+                    CodeMétier = reader["CodeMetier"].ToString(),
+                    Service = reader["NomService"].ToString()
+                };
 
+                if (reader["Manager"] != DBNull.Value)
+                    pers.LoginManager = reader["Manager"].ToString();
+
+                pers.TauxProductivité = (float)reader["TauxProductivite"];
+                pers.ListTaches.Add(new Tache()
+                {
+                    CodeActivité = reader["CodeActivite"].ToString(),
+                    Libellé = reader["Libelle"].ToString()
+                });
+                //TODO : gérer les taches annexes complètement si nécessaire
+
+                listPersonnes.Add(pers);
             }
         }
 
@@ -399,4 +421,3 @@ namespace JobOverview
 
     }
 }
-        
