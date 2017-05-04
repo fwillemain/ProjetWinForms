@@ -17,7 +17,6 @@ namespace ProjetWinForms
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
-            // Je fais un test
         }
     }
 }
