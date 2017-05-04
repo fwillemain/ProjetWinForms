@@ -52,6 +52,7 @@
     <Compile Include="FORMS\FormAjoutVersion.Designer.cs">
       <DependentUpon>FormAjoutVersion.cs</DependentUpon>
     </Compile>
+    <Compile Include="DALXmlcs.cs" />
     <Compile Include="FORMS\FormLogiciel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +65,12 @@
     <Compile Include="FORMS\MDIForm.Designer.cs">
       <DependentUpon>MDIForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="FORMS\FormTachesProduction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\FormTachesProduction.Designer.cs">
+      <DependentUpon>FormTachesProduction.cs</DependentUpon>
+    </Compile>
     <Compile Include="JobOverviewDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -75,11 +82,16 @@
     <EmbeddedResource Include="FORMS\FormAjoutVersion.resx">
       <DependentUpon>FormAjoutVersion.cs</DependentUpon>
     </EmbeddedResource>
+    <Compile Include="POCO\TachesProduction.cs" />
+    <Compile Include="POCO\Travail.cs" />
     <EmbeddedResource Include="FORMS\FormLogiciel.resx">
       <DependentUpon>FormLogiciel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FORMS\MDIForm.resx">
       <DependentUpon>MDIForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\FormTachesProduction.resx">
+      <DependentUpon>FormTachesProduction.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

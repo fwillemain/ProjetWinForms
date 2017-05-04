@@ -1,0 +1,5 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/JobOverview/bin/Debug/JobOverview.vshost.exe.manifest
