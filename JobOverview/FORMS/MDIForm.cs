@@ -11,7 +11,7 @@ namespace JobOverview
 		// Collection des fenêtres filles
 		public Dictionary<string, Form> ChildForms { get; private set; }
         //Champs privés
-        private List<TacheProd> _ListTachesProdXml;
+        private List<TacheProd> _ListTachesProd;
         public MDIForm()
 		{
 			InitializeComponent();
@@ -26,10 +26,20 @@ namespace JobOverview
 
         private void MnExport_Click(object sender, EventArgs e)
         {
-            var res = MessageBox.Show("Confirmez-vous l'export des données depuis la base?", "Import des données", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
+            var res = MessageBox.Show("Confirmez-vous l'export des données depuis la base?", "Export des données", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
             if (res == DialogResult.Yes)
             {
-                //TODO: appeler la méthode qui export
+                try
+                {
+                    DALXmlcs.ExporterXml(_ListTachesProd);
+                    MessageBox.Show("L'export des données a été executé correctement", "Export des données");
+                }
+                catch (Exception)
+                {
+
+                    MessageBox.Show("L'Export des données n'a pas été executé correctement", "Export des données");
+                }
+                
             }
         }
 
@@ -38,9 +48,19 @@ namespace JobOverview
             var res = MessageBox.Show("Confirmez-vous l'import des données dans la base?", "Import des données", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
             if (res == DialogResult.Yes)
             {
-                _ListTachesProdXml = DALXmlcs.Importerfichier();
-                
-                DALXmlcs.AjoutTachesProdFromXml(_ListTachesProdXml);
+                try
+                {
+                    _ListTachesProd = DALXmlcs.Importerfichier();
+
+                    DALLogiciel.AjoutTachesProdBDD(_ListTachesProd);
+                    MessageBox.Show("L'import des données a été executé correctement", "Import des données");
+                    
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("Attention : L'import des données n'a pas été executé correctement", "Import des données");
+                    throw;
+                }
             }
         }
 

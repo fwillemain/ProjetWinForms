@@ -19,3 +19,4 @@ D:\Formation GTM ISAGRI\ProjetWF\ProjetWinForms\JobOverview\obj\Debug\JobOvervie
 D:\Formation GTM ISAGRI\ProjetWF\ProjetWinForms\JobOverview\bin\Debug\JobOverview.exe
 D:\Formation GTM ISAGRI\ProjetWF\ProjetWinForms\JobOverview\bin\Debug\JobOverview.pdb
 D:\Formation GTM ISAGRI\ProjetWF\ProjetWinForms\JobOverview\obj\Debug\JobOverview.FormTachesProduction.resources
+D:\Formation GTM ISAGRI\ProjetWF\ProjetWinForms\JobOverview\obj\Debug\JobOverview.FormAjoutVersion.resources

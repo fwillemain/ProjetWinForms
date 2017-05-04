@@ -31,13 +31,11 @@
             this.menuGeneral = new System.Windows.Forms.MenuStrip();
             this.mnLogiciel = new System.Windows.Forms.ToolStripMenuItem();
             this.mnTachesProd = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuWindows = new System.Windows.Forms.ToolStripMenuItem();
             this.mnechanges = new System.Windows.Forms.ToolStripMenuItem();
             this.mnImport = new System.Windows.Forms.ToolStripMenuItem();
             this.mnExport = new System.Windows.Forms.ToolStripMenuItem();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.menuWindows = new System.Windows.Forms.ToolStripMenuItem();
             this.menuGeneral.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuGeneral
@@ -65,12 +63,6 @@
             this.mnTachesProd.Size = new System.Drawing.Size(117, 20);
             this.mnTachesProd.Text = "Taches Production";
             // 
-            // menuWindows
-            // 
-            this.menuWindows.Name = "menuWindows";
-            this.menuWindows.Size = new System.Drawing.Size(63, 20);
-            this.menuWindows.Text = "Fenêtres";
-            // 
             // mnechanges
             // 
             this.mnechanges.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -92,20 +84,17 @@
             this.mnExport.Size = new System.Drawing.Size(211, 22);
             this.mnExport.Text = "Export Tâches equipe";
             // 
-            // dataGridView1
+            // menuWindows
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(105, 132);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(546, 310);
-            this.dataGridView1.TabIndex = 2;
+            this.menuWindows.Name = "menuWindows";
+            this.menuWindows.Size = new System.Drawing.Size(63, 20);
+            this.menuWindows.Text = "Fenêtres";
             // 
             // MDIForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(787, 514);
-            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.menuGeneral);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuGeneral;
@@ -113,7 +102,6 @@
             this.Text = "JobOverview";
             this.menuGeneral.ResumeLayout(false);
             this.menuGeneral.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -128,7 +116,6 @@
         private System.Windows.Forms.ToolStripMenuItem mnechanges;
         private System.Windows.Forms.ToolStripMenuItem mnImport;
         private System.Windows.Forms.ToolStripMenuItem mnExport;
-        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
 
