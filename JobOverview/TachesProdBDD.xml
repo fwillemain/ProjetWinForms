@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TachesProduction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Séparation" Activite="DEV" Personne="RBEAUMONT" DureePrev="8" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Variations alléliques" Activite="ANF" Personne="RBEAUMONT" DureePrev="16" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Variations alléliques" Activite="ANF" Personne="RBEAUMONT" DureePrev="16" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Variations alléliques" Activite="ANF" Personne="RBEAUMONT" DureePrev="16" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Séparation" Activite="DEV" Personne="RBEAUMONT" DureePrev="8" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Variations alléliques" Activite="ANF" Personne="RBEAUMONT" DureePrev="16" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Variations alléliques" Activite="ANF" Personne="RBEAUMONT" DureePrev="16" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Variations alléliques" Activite="ANF" Personne="RBEAUMONT" DureePrev="16" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Séparation" Activite="DEV" Personne="RBEAUMONT" DureePrev="8" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Séparation" Activite="DEV" Personne="RBEAUMONT" DureePrev="8" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Variations alléliques" Activite="ANF" Personne="RBEAUMONT" DureePrev="16" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Variations alléliques" Activite="ANF" Personne="RBEAUMONT" DureePrev="16" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Variations alléliques" Activite="ANF" Personne="RBEAUMONT" DureePrev="16" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Variations alléliques" Activite="ANF" Personne="RBEAUMONT" DureePrev="16" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Séparation" Activite="DEV" Personne="RBEAUMONT" DureePrev="8" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Séparation" Activite="DEV" Personne="RBEAUMONT" DureePrev="8" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Variations alléliques" Activite="ANF" Personne="RBEAUMONT" DureePrev="16" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Variations alléliques" Activite="ANF" Personne="RBEAUMONT" DureePrev="16" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Variations alléliques" Activite="ANF" Personne="RBEAUMONT" DureePrev="16" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Variations alléliques" Activite="ANF" Personne="RBEAUMONT" DureePrev="16" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Variations alléliques" Activite="ANF" Personne="RBEAUMONT" DureePrev="16" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Séparation" Activite="DEV" Personne="RBEAUMONT" DureePrev="8" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Séparation" Activite="DEV" Personne="RBEAUMONT" DureePrev="8" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Variations alléliques" Activite="ANF" Personne="RBEAUMONT" DureePrev="16" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Variations alléliques" Activite="ANF" Personne="RBEAUMONT" DureePrev="16" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Variations alléliques" Activite="ANF" Personne="RBEAUMONT" DureePrev="16" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Variations alléliques" Activite="ANF" Personne="RBEAUMONT" DureePrev="16" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Séparation" Activite="DEV" Personne="RBEAUMONT" DureePrev="8" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Variations alléliques" Activite="ANF" Personne="RBEAUMONT" DureePrev="16" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Séparation" Activite="DEV" Personne="RBEAUMONT" DureePrev="8" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Séparation" Activite="DEV" Personne="RBEAUMONT" DureePrev="8" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Séparation" Activite="DEV" Personne="RBEAUMONT" DureePrev="8" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Variations alléliques" Activite="ANF" Personne="RBEAUMONT" DureePrev="16" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Variations alléliques" Activite="ANF" Personne="RBEAUMONT" DureePrev="16" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Variations alléliques" Activite="ANF" Personne="RBEAUMONT" DureePrev="16" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Variations alléliques" Activite="ANF" Personne="RBEAUMONT" DureePrev="16" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Variations alléliques" Activite="ANT" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Utilisateurs et droits" Activite="ANT" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Séparation" Activite="ANF" Personne="RBEAUMONT" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Marquage" Activite="ANF" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Polymorphisme génétique" Activite="ANT" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Polymorphisme génétique" Activite="ANF" Personne="MWEBER" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Marquage" Activite="DEV" Personne="RBEAUMONT" DureePrev="80" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Séparation" Activite="ANT" Personne="RBEAUMONT" DureePrev="32" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Polymorphisme génétique" Activite="DEV" Personne="MWEBER" DureePrev="50" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Variations alléliques" Activite="DEV" Personne="RBEAUMONT" DureePrev="48" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AF Utilisateurs et droits" Activite="ANF" Personne="MWEBER" DureePrev="40" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="AT Marquage" Activite="ANT" Personne="RBEAUMONT" DureePrev="96" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+  <TacheProd Libelle="DEV Utilisateurs et droits" Activite="DEV" Personne="MWEBER" DureePrev="72" DureeRest="0" Logiciel="GENOMICA" Module="GENOMICA" Version="1" />
+</TachesProduction>

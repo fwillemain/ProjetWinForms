@@ -59,22 +59,22 @@
             // 
             // btnAjoutVersion
             // 
-            this.btnAjoutVersion.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAjoutVersion.Location = new System.Drawing.Point(27, 421);
+            this.btnAjoutVersion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAjoutVersion.Location = new System.Drawing.Point(27, 407);
             this.btnAjoutVersion.Name = "btnAjoutVersion";
-            this.btnAjoutVersion.Size = new System.Drawing.Size(66, 40);
+            this.btnAjoutVersion.Size = new System.Drawing.Size(100, 54);
             this.btnAjoutVersion.TabIndex = 4;
-            this.btnAjoutVersion.Text = "+";
+            this.btnAjoutVersion.Text = "Ajouter une Version";
             this.btnAjoutVersion.UseVisualStyleBackColor = true;
             // 
             // btnSupprVersion
             // 
-            this.btnSupprVersion.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSupprVersion.Location = new System.Drawing.Point(145, 421);
+            this.btnSupprVersion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSupprVersion.Location = new System.Drawing.Point(133, 407);
             this.btnSupprVersion.Name = "btnSupprVersion";
-            this.btnSupprVersion.Size = new System.Drawing.Size(66, 40);
+            this.btnSupprVersion.Size = new System.Drawing.Size(101, 54);
             this.btnSupprVersion.TabIndex = 5;
-            this.btnSupprVersion.Text = "-";
+            this.btnSupprVersion.Text = "Supprimer Version";
             this.btnSupprVersion.UseVisualStyleBackColor = true;
             // 
             // dgvVersion
@@ -83,7 +83,7 @@
             this.dgvVersion.Location = new System.Drawing.Point(26, 72);
             this.dgvVersion.Name = "dgvVersion";
             this.dgvVersion.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
-            this.dgvVersion.Size = new System.Drawing.Size(391, 325);
+            this.dgvVersion.Size = new System.Drawing.Size(402, 329);
             this.dgvVersion.TabIndex = 2;
             // 
             // lbModule
@@ -117,7 +117,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(657, 469);
+            this.ClientSize = new System.Drawing.Size(889, 550);
             this.Controls.Add(this.lblVersion);
             this.Controls.Add(this.lblModule);
             this.Controls.Add(this.lbModule);
@@ -128,7 +128,7 @@
             this.Controls.Add(this.cmbLogiciel);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "FormLogiciel";
-            this.Text = "FormLogiciel";
+            this.Text = "Version des Logiciels";
             ((System.ComponentModel.ISupportInitialize)(this.dgvVersion)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

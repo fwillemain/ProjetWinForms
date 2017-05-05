@@ -13,18 +13,23 @@ namespace JobOverview
 
     public static class DALLogiciel
     {
+        #region Champs Privé
         static private string _chaineConnexion;
+        #endregion
 
+        #region Constructeur
         static DALLogiciel()
         {
             foreach (SettingsProperty prop in Properties.Settings.Default.Properties)
                 if (prop.Name == "SelectedConnexionString")
                     _chaineConnexion = prop.DefaultValue.ToString();
         }
+        #endregion
 
         #region Méthodes Publiques
         public static List<Logiciel> GetLogiciels()
         {
+            //Requêtage à la BDD pour récupérer les informations sur les logiciels
             List<Logiciel> listLog = new List<Logiciel>();
 
             var conx = new SqlConnection(_chaineConnexion);
@@ -51,6 +56,7 @@ namespace JobOverview
 
         public static void AjouterVersionBDD(Version version, string codeLogiciel)
         {
+            //Insertion en masse de versions dans la BDD
             SqlConnection connexion = new SqlConnection(_chaineConnexion);
 
             connexion.Open();
@@ -100,6 +106,7 @@ namespace JobOverview
 
         public static void SupprimerVersionBDD(string codeLogiciel, float numeroVersion)
         {
+            //Suppression en masse de versions dans la BDD
             SqlConnection connexion = new SqlConnection(_chaineConnexion);
 
             connexion.Open();
@@ -135,12 +142,14 @@ namespace JobOverview
             }
 
         }
+
         public static void AjoutTachesProdBDD(List<TacheProd> listTachesProd)
         {
+            //Insertion en masse des taches de production dans la BDD
             string req = @"Insert jo.Tache(IdTache, Libelle, Annexe, CodeActivite, Login)                                                                                                 
                             select IdTache, Libelle, Annexe, CodeActivite, Login from  @table;
 
-                             Insert jo.TacheProd (IdTache, DureePrevue, DureeRestanteEstimee, CodeModule, CodeLogicieModule, NumeroVersion, CodeLogicielVersion)
+                            Insert jo.TacheProd (IdTache, DureePrevue, DureeRestanteEstimee, CodeModule, CodeLogicieModule, NumeroVersion, CodeLogicielVersion)
                             select IdTache, DureePrevue, DureeRestanteEstimee, CodeModule, CodeLogicieModule, NumeroVersion, CodeLogicielVersion from @table;
  
                             Insert jo.Travail(IdTache, DateTravail, Heures, TauxProductivite)
@@ -181,6 +190,7 @@ namespace JobOverview
 
         public static List<Activité> GetActivitésAnnexes()
         {
+            //Requêtage à la BDD pour récupérer les informations sur les activités
             List<Activité> listActivitésAnx = new List<Activité>();
 
             var conx = new SqlConnection(_chaineConnexion);
@@ -200,6 +210,7 @@ namespace JobOverview
 
         public static List<Personne> GetPersonnes()
         {
+            //Requêtage à la BDD pour récupérer les informations sur les personnes
             List<Personne> listPersonnes = new List<Personne>();
 
             var conx = new SqlConnection(_chaineConnexion);
@@ -209,7 +220,8 @@ namespace JobOverview
                              from jo.Personne p
                              inner join jo.Metier m on p.CodeMetier = m.CodeMetier
                              inner join jo.Service s on m.CodeService = s.CodeService
-                             inner join jo.Tache t on p.Login = t.Login";
+                             inner join jo.Tache t on p.Login = t.Login
+                             order by 1";
 
             var com = new SqlCommand(query, conx);
             conx.Open();
@@ -220,6 +232,27 @@ namespace JobOverview
             }
 
             return listPersonnes;
+        }
+
+        public static List<Version> GetVersion()
+        {
+            //Requêtage à la BDD pour récupérer les informations sur les Versions
+            List<Version> listvers = new List<Version>();
+
+            var conx = new SqlConnection(_chaineConnexion);
+
+            string query = @"Select NumeroVersion, Millesime, DateOuverture, DateSortiePrevue, DateSortieReelle from jo.Version";
+
+            var com = new SqlCommand(query, conx);
+            conx.Open();
+
+            using (SqlDataReader reader = com.ExecuteReader())
+            {
+
+                GetVersionFromDataReader(reader, listvers);
+            }
+
+            return listvers;
         }
 
         #endregion
@@ -324,7 +357,7 @@ namespace JobOverview
         private static DataTable GetDataTableForTachesProd(List<TacheProd> listTachesProd)
         {
 
-            // Créaton d'une table mémoire
+            // Création d'une table mémoire
             DataTable table = new DataTable();
 
             #region Création des colonnes 
@@ -378,11 +411,11 @@ namespace JobOverview
 
             #endregion
 
+            #region Création d'une ligne de table
             foreach (var p in listTachesProd)
             {
-                foreach (var t in p.Travaux)
+                foreach (var t in p.listTravaux)
                 {
-                    #region Création d'une ligne de table
                     DataRow ligne = table.NewRow();
 
                     ligne["IdTache"] = Guid.NewGuid();
@@ -409,6 +442,25 @@ namespace JobOverview
                 }
             }
             return table;
+        }
+
+        private static void GetVersionFromDataReader(SqlDataReader reader, List<Version> listVersion)
+        {
+            while (reader.Read())
+            {
+                Version vers = new Version();
+
+                vers.NumeroVersion = (float)reader["NumeroVersion"];
+                vers.Millésime = (short)reader["Millesime"];
+                vers.DateOuverture = (DateTime)reader["DateOuverture"];
+                vers.DateSortiePrévue = (DateTime)reader["DateSortiePrevue"];
+                if (reader["DateSortieReelle"] != DBNull.Value)
+                    vers.DateSortieRéelle = (DateTime)reader["DateSortieReelle"];
+
+
+
+                listVersion.Add(vers);
+            }
         }
 
         #endregion

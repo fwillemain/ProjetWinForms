@@ -15,6 +15,10 @@ namespace JobOverview
         public string Activite { get; set; }
         [XmlAttribute]
         public string Personne { get; set; }
+        [XmlIgnore]
+        public string Description { get; set; }
+        [XmlIgnore]
+        public int Numéro { get; set; }
         [XmlAttribute]
         public float DureePrev { get; set; }
         [XmlAttribute]
@@ -25,9 +29,6 @@ namespace JobOverview
         public string Module { get; set; }
         [XmlAttribute]
         public float Version { get; set; }
- 
-
-
-        public List<Travail> Travaux { get; set; }
+        public List<Travail> listTravaux { get; set; }
     }
 }

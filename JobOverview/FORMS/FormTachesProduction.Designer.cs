@@ -31,12 +31,12 @@
             this.cmbPersonnes = new System.Windows.Forms.ComboBox();
             this.cmbVersion = new System.Windows.Forms.ComboBox();
             this.dgvTachesProd = new System.Windows.Forms.DataGridView();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.chkTachesTerm = new System.Windows.Forms.CheckBox();
             this.lblPersonne = new System.Windows.Forms.Label();
             this.lblVersion = new System.Windows.Forms.Label();
             this.btnAjout = new System.Windows.Forms.Button();
             this.btnSuppr = new System.Windows.Forms.Button();
+            this.tacheProdTableAdapter1 = new JobOverview.JobOverviewDataSetTableAdapters.TacheProdTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTachesProd)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,85 +62,83 @@
             this.dgvTachesProd.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvTachesProd.Location = new System.Drawing.Point(13, 101);
             this.dgvTachesProd.Name = "dgvTachesProd";
-            this.dgvTachesProd.Size = new System.Drawing.Size(529, 318);
+            this.dgvTachesProd.Size = new System.Drawing.Size(599, 318);
             this.dgvTachesProd.TabIndex = 1;
             // 
-            // checkBox1
+            // chkTachesTerm
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(462, 69);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(80, 17);
-            this.checkBox1.TabIndex = 2;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(586, 69);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(80, 17);
-            this.checkBox2.TabIndex = 2;
-            this.checkBox2.Text = "checkBox1";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.chkTachesTerm.AutoSize = true;
+            this.chkTachesTerm.Checked = true;
+            this.chkTachesTerm.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkTachesTerm.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkTachesTerm.Location = new System.Drawing.Point(482, 66);
+            this.chkTachesTerm.Name = "chkTachesTerm";
+            this.chkTachesTerm.Size = new System.Drawing.Size(130, 17);
+            this.chkTachesTerm.TabIndex = 2;
+            this.chkTachesTerm.Text = "Taches Terminées";
+            this.chkTachesTerm.UseVisualStyleBackColor = true;
             // 
             // lblPersonne
             // 
             this.lblPersonne.AutoSize = true;
+            this.lblPersonne.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPersonne.Location = new System.Drawing.Point(18, 15);
             this.lblPersonne.Name = "lblPersonne";
-            this.lblPersonne.Size = new System.Drawing.Size(52, 13);
+            this.lblPersonne.Size = new System.Drawing.Size(60, 13);
             this.lblPersonne.TabIndex = 3;
             this.lblPersonne.Text = "Personne";
             // 
             // lblVersion
             // 
             this.lblVersion.AutoSize = true;
+            this.lblVersion.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblVersion.Location = new System.Drawing.Point(18, 49);
             this.lblVersion.Name = "lblVersion";
-            this.lblVersion.Size = new System.Drawing.Size(42, 13);
+            this.lblVersion.Size = new System.Drawing.Size(49, 13);
             this.lblVersion.TabIndex = 3;
             this.lblVersion.Text = "Version";
             // 
             // btnAjout
             // 
-            this.btnAjout.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAjout.Location = new System.Drawing.Point(567, 299);
+            this.btnAjout.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAjout.Location = new System.Drawing.Point(628, 209);
             this.btnAjout.Name = "btnAjout";
-            this.btnAjout.Size = new System.Drawing.Size(75, 39);
+            this.btnAjout.Size = new System.Drawing.Size(108, 95);
             this.btnAjout.TabIndex = 4;
-            this.btnAjout.Text = "+";
+            this.btnAjout.Text = "Ajout d\'une tâche";
             this.btnAjout.UseVisualStyleBackColor = true;
             // 
             // btnSuppr
             // 
-            this.btnSuppr.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSuppr.Location = new System.Drawing.Point(567, 363);
+            this.btnSuppr.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSuppr.Location = new System.Drawing.Point(628, 310);
             this.btnSuppr.Name = "btnSuppr";
-            this.btnSuppr.Size = new System.Drawing.Size(75, 42);
+            this.btnSuppr.Size = new System.Drawing.Size(108, 95);
             this.btnSuppr.TabIndex = 5;
-            this.btnSuppr.Text = "-";
+            this.btnSuppr.Text = "Suppression d\'une tâche";
             this.btnSuppr.UseVisualStyleBackColor = true;
+            // 
+            // tacheProdTableAdapter1
+            // 
+            this.tacheProdTableAdapter1.ClearBeforeFill = true;
             // 
             // FormTachesProduction
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(678, 444);
+            this.ClientSize = new System.Drawing.Size(902, 520);
             this.Controls.Add(this.btnSuppr);
             this.Controls.Add(this.btnAjout);
             this.Controls.Add(this.lblVersion);
             this.Controls.Add(this.lblPersonne);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.chkTachesTerm);
             this.Controls.Add(this.dgvTachesProd);
             this.Controls.Add(this.cmbVersion);
             this.Controls.Add(this.cmbPersonnes);
-            this.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.ForeColor = System.Drawing.Color.OrangeRed;
             this.Name = "FormTachesProduction";
-            this.Text = "FormTachesProduction";
+            this.Text = "Taches de Production";
             ((System.ComponentModel.ISupportInitialize)(this.dgvTachesProd)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -152,11 +150,11 @@
         private System.Windows.Forms.ComboBox cmbPersonnes;
         private System.Windows.Forms.ComboBox cmbVersion;
         private System.Windows.Forms.DataGridView dgvTachesProd;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox chkTachesTerm;
         private System.Windows.Forms.Label lblPersonne;
         private System.Windows.Forms.Label lblVersion;
         private System.Windows.Forms.Button btnAjout;
         private System.Windows.Forms.Button btnSuppr;
+        private JobOverviewDataSetTableAdapters.TacheProdTableAdapter tacheProdTableAdapter1;
     }
 }

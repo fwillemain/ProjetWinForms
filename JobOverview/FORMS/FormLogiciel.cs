@@ -23,7 +23,6 @@ namespace JobOverview
             cmbLogiciel.SelectionChangeCommitted += CmbLogiciel_SelectionChangeCommitted;
             btnSupprVersion.Click += BtnSupprVersion_Click;
             btnAjoutVersion.Click += BtnAjoutVersion_Click;
-
         }
 
         private void BtnAjoutVersion_Click(object sender, EventArgs e)
@@ -116,6 +115,5 @@ namespace JobOverview
 
             base.OnLoad(e);
         }
-
     }
 }

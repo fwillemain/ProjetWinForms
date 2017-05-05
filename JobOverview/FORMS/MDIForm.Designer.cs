@@ -54,8 +54,8 @@
             // mnLogiciel
             // 
             this.mnLogiciel.Name = "mnLogiciel";
-            this.mnLogiciel.Size = new System.Drawing.Size(60, 20);
-            this.mnLogiciel.Text = "Logiciel";
+            this.mnLogiciel.Size = new System.Drawing.Size(127, 20);
+            this.mnLogiciel.Text = "Version des Logiciels";
             // 
             // mnTachesProd
             // 

@@ -241,6 +241,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.AntiqueWhite;
             this.ClientSize = new System.Drawing.Size(678, 498);
             this.Controls.Add(this.btnAnnulerTout);
             this.Controls.Add(this.btnEnregistrer);
@@ -265,7 +266,7 @@
             this.Controls.Add(this.cbVersion);
             this.Controls.Add(this.cbLogiciel);
             this.Name = "FormAjoutTacheProd";
-            this.Text = "FormAjoutTacheProd";
+            this.Text = "Ajout des tâches de Production";
             this.ResumeLayout(false);
             this.PerformLayout();
 

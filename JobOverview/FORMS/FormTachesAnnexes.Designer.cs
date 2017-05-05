@@ -74,13 +74,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(556, 459);
             this.Controls.Add(this.dgvTachesAnx);
             this.Controls.Add(this.btnEnregistrer);
             this.Controls.Add(this.cbPersonne);
             this.Controls.Add(this.label1);
             this.Name = "FormTachesAnnexes";
-            this.Text = "FormTachesAnnexes";
+            this.Text = "Tâches Annexes";
             ((System.ComponentModel.ISupportInitialize)(this.dgvTachesAnx)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

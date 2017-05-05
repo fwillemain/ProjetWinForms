@@ -49,3 +49,6 @@ D:\Projet Winforms\ProjetWinForms\JobOverview\obj\Debug\JobOverview.FormTachesPr
 D:\Projet Winforms\ProjetWinForms\JobOverview\obj\Debug\JobOverview.Properties.Resources.resources
 D:\Projet Winforms\ProjetWinForms\JobOverview\obj\Debug\JobOverview.csproj.GenerateResource.Cache
 D:\Projet Winforms\ProjetWinForms\JobOverview\obj\Debug\JobOverview.FormAjoutTacheProd.resources
+D:\Formation GTM ISAGRI\ProjetWF\ProjetWinForms\JobOverview\obj\Debug\JobOverview.FormAjoutTacheProd.resources
+D:\Formation GTM ISAGRI\ProjetWF\ProjetWinForms\JobOverview\obj\Debug\JobOverview.FormConfig.resources
+D:\Formation GTM ISAGRI\ProjetWF\ProjetWinForms\JobOverview\obj\Debug\JobOverview.FormTachesAnnexes.resources

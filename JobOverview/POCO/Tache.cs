@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace JobOverview
 {
@@ -10,6 +11,9 @@ namespace JobOverview
     {
         public string Libellé { get; set; }
         public string CodeActivité { get; set; }
+        [XmlIgnore]
+        public string Description { get; set; }
+
         // TODO : voir comment faire hériter TachesProduction de Tache sans faire buger le XMLSerializer
     }
 }
