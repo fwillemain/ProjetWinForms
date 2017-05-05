@@ -76,13 +76,13 @@
             // 
             this.mnImport.Name = "mnImport";
             this.mnImport.Size = new System.Drawing.Size(211, 22);
-            this.mnImport.Text = "Import Taches Production";
+            this.mnImport.Text = "Import Tâches Production";
             // 
             // mnExport
             // 
             this.mnExport.Name = "mnExport";
             this.mnExport.Size = new System.Drawing.Size(211, 22);
-            this.mnExport.Text = "Export Tâches equipe";
+            this.mnExport.Text = "Export Tâches  Equipe";
             // 
             // menuWindows
             // 

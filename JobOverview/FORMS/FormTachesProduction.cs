@@ -28,7 +28,7 @@ namespace JobOverview
 
         private void BtnAjout_Click(object sender, EventArgs e)
         {
-            using (FormSaisieTachesProd form = new FormSaisieTachesProd())
+           // using ( form = new ())
             {
                 //  TODO: Faire Implémentation en récupérant le dialogResult de SaisieTacheProd;
             }

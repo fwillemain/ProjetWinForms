@@ -62,7 +62,7 @@
             this.dgvTachesProd.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvTachesProd.Location = new System.Drawing.Point(13, 101);
             this.dgvTachesProd.Name = "dgvTachesProd";
-            this.dgvTachesProd.Size = new System.Drawing.Size(483, 318);
+            this.dgvTachesProd.Size = new System.Drawing.Size(529, 318);
             this.dgvTachesProd.TabIndex = 1;
             // 
             // checkBox1
@@ -106,7 +106,7 @@
             // btnAjout
             // 
             this.btnAjout.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAjout.Location = new System.Drawing.Point(540, 297);
+            this.btnAjout.Location = new System.Drawing.Point(567, 299);
             this.btnAjout.Name = "btnAjout";
             this.btnAjout.Size = new System.Drawing.Size(75, 39);
             this.btnAjout.TabIndex = 4;
@@ -116,7 +116,7 @@
             // btnSuppr
             // 
             this.btnSuppr.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSuppr.Location = new System.Drawing.Point(540, 366);
+            this.btnSuppr.Location = new System.Drawing.Point(567, 363);
             this.btnSuppr.Name = "btnSuppr";
             this.btnSuppr.Size = new System.Drawing.Size(75, 42);
             this.btnSuppr.TabIndex = 5;
