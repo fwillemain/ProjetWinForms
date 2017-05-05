@@ -142,10 +142,7 @@ namespace JobOverview
             }
 
         }
-
-     
-
-                       
+                               
         public static List<Version> GetVersion()
         {
             //Requêtage à la BDD pour récupérer les informations sur les Versions
@@ -222,9 +219,7 @@ namespace JobOverview
                 listLog.Last().ListVersions.Last().ListReleases.Add(rel);
             }
         }
-
-
-
+        
         private static void GetVersionFromDataReader(SqlDataReader reader, List<Version> listVersion)
         {
             while (reader.Read())

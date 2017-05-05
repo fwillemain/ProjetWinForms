@@ -105,7 +105,7 @@
             this.btnAjout.Name = "btnAjout";
             this.btnAjout.Size = new System.Drawing.Size(108, 95);
             this.btnAjout.TabIndex = 4;
-            this.btnAjout.Text = "Ajout d\'une tâche";
+            this.btnAjout.Text = "Ajout Tâche";
             this.btnAjout.UseVisualStyleBackColor = true;
             // 
             // btnSuppr
@@ -115,7 +115,7 @@
             this.btnSuppr.Name = "btnSuppr";
             this.btnSuppr.Size = new System.Drawing.Size(108, 95);
             this.btnSuppr.TabIndex = 5;
-            this.btnSuppr.Text = "Suppression d\'une tâche";
+            this.btnSuppr.Text = "Suppression Tâche";
             this.btnSuppr.UseVisualStyleBackColor = true;
             // 
             // tacheProdTableAdapter1
@@ -136,7 +136,7 @@
             this.Controls.Add(this.dgvTachesProd);
             this.Controls.Add(this.cmbVersion);
             this.Controls.Add(this.cmbPersonnes);
-            this.ForeColor = System.Drawing.Color.OrangeRed;
+            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.Name = "FormTachesProduction";
             this.Text = "Taches de Production";
             ((System.ComponentModel.ISupportInitialize)(this.dgvTachesProd)).EndInit();
