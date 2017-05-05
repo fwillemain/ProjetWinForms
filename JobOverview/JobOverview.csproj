@@ -46,6 +46,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DALLogiciel.cs" />
+    <Compile Include="DALTachesProd.cs" />
+    <Compile Include="FORMS\FormSaisieTachesProd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\FormSaisieTachesProd.Designer.cs">
+      <DependentUpon>FormSaisieTachesProd.cs</DependentUpon>
+    </Compile>
     <Compile Include="FORMS\FormAjoutVersion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,6 +86,9 @@
     <Compile Include="POCO\Logiciel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FORMS\FormSaisieTachesProd.resx">
+      <DependentUpon>FormSaisieTachesProd.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FORMS\FormAjoutVersion.resx">
       <DependentUpon>FormAjoutVersion.cs</DependentUpon>
     </EmbeddedResource>
