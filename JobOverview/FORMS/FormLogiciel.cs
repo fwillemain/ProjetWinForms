@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Configuration;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -35,12 +36,18 @@ namespace JobOverview
                 var result = form.ShowDialog();
                 if (result == DialogResult.Yes)
                 {
-                    // TODO : tester si les versions ont des taches de prod associées avant de les supprimer
                     try
                     {
                         DALLogiciel.AjouterVersionBDD(form.VersionAAjouter, cmbLogiciel.SelectedValue.ToString());
                         _logCourant.ListVersions.Add(form.VersionAAjouter);
                         MiseAJourUI();
+                    }
+                    catch (SqlException se)
+                    {
+                        if (se.Number == 2627)
+                            MessageBox.Show("Impossible d'ajouter la version : celle-ci existe déjà.", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        else
+                            throw;
                     }
                     catch (Exception)
                     {
@@ -64,6 +71,13 @@ namespace JobOverview
                         DALLogiciel.SupprimerVersionBDD(cmbLogiciel.SelectedValue.ToString(), (float)row.Cells["NumeroVersion"].Value);
                         MiseAJourUI();
                     }
+                }
+                catch (SqlException se)
+                {
+                    if (se.Number == 547)
+                        MessageBox.Show("Impossible de supprimer les versions selectionnées : certaines ont encore des tâches associées.", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    else
+                        throw;
                 }
                 catch (Exception)
                 {

@@ -20,6 +20,8 @@ namespace JobOverview
             // TODO : Branchement des menus
             mnLogiciel.Click += (object sender, EventArgs e) => ShowChild("JobOverview.FormLogiciel");
             mnTachesProd.Click += (object sender, EventArgs e) => ShowChild("JobOverview.FormTachesProduction");
+            mnTachesAnx.Click += (object sender, EventArgs e) => ShowChild("JobOverview.FormTachesAnnexes");
+
 
             mnImport.Click += MnImport_Click;
             mnExport.Click += MnExport_Click;
@@ -71,7 +73,6 @@ namespace JobOverview
                 catch (Exception)
                 {
                     MessageBox.Show("Attention : L'import des données n'a pas été executé correctement", "Import des données");
-                    // TODO : gérer l'erreur si nécessaire
                 }
             }
         }

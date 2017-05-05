@@ -38,10 +38,6 @@ namespace JobOverview
             return listprod;
         }
 
-        public static void GetPersonnes();
-        
-
-       
     }
 
 }

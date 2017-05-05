@@ -135,6 +135,47 @@ namespace JobOverview
             }
 
         }
+
+        public static void AjoutTachesProdSansTravailBDD(List<TacheProd> listTachesProd)
+        {
+            string req = @"Insert jo.Tache(IdTache, Libelle, Annexe, CodeActivite, Login, Description)                                                                                                 
+                            select IdTache, Libelle, Annexe, CodeActivite, Login, Description from  @table;
+
+                             Insert jo.TacheProd (IdTache, DureePrevue, DureeRestanteEstimee, CodeModule, CodeLogicieModule, NumeroVersion, CodeLogicielVersion)
+                            select IdTache, DureePrevue, DureeRestanteEstimee, CodeModule, CodeLogicieModule, NumeroVersion, CodeLogicielVersion from @table;";
+
+            var param = new SqlParameter("@table", SqlDbType.Structured);
+
+            DataTable tableProd = GetDataTableForTachesProdSansTravail(listTachesProd);
+            param.TypeName = "TypeTableTachesProdSansTravail";
+
+            param.Value = tableProd;
+
+
+            using (var cnx = new SqlConnection(_chaineConnexion))
+            {
+                cnx.Open();
+                SqlTransaction tran = cnx.BeginTransaction();
+
+                try
+                {
+                    var command = new SqlCommand(req, cnx, tran);
+                    command.Parameters.Add(param);
+                    command.ExecuteNonQuery();
+
+
+                    tran.Commit();
+                }
+                catch (Exception)
+                {
+                    tran.Rollback();
+                    throw;
+                }
+            }
+        }
+
+
+
         public static void AjoutTachesProdBDD(List<TacheProd> listTachesProd)
         {
             string req = @"Insert jo.Tache(IdTache, Libelle, Annexe, CodeActivite, Login)                                                                                                 
@@ -179,6 +220,43 @@ namespace JobOverview
             }
         }
 
+        public static void ModifierTachesAnxBDD(List<Tache> lstTachesAModifier, string login)
+        {
+            using (var cnx = new SqlConnection(_chaineConnexion))
+            {
+                cnx.Open();
+                var tran = cnx.BeginTransaction();
+
+                // TODO : debugger le merge
+                string query = @"MERGE jo.Tache AS Cible
+	                                USING (SELECT IdTache, Libelle, Annexe, CodeActivite, Login FROM @table) AS Source
+	                                ON (Cible.CodeActivite = Source.CodeActivite and Cible.Login = Source.Login)
+                                 WHEN MATCHED THEN
+	                                delete
+                                 WHEN NOT MATCHED BY TARGET THEN
+	                                INSERT (IdTache, Libelle, Annexe, CodeActivite, Login)
+	                                VALUES (Source.IdTache, Source.Libelle, Source.Annexe, Source.CodeActivite, Source.Login);";
+
+                var param = new SqlParameter("@table", SqlDbType.Structured);
+                param.TypeName = "TypeTableTachesAnx";
+                param.Value = GetDataTableForTachesAnx(lstTachesAModifier, login);
+
+                var command = new SqlCommand(query, cnx, tran);
+                command.Parameters.Add(param);
+
+                try
+                {
+                    command.ExecuteNonQuery();
+                    tran.Commit();
+                }
+                catch (Exception)
+                {
+                    tran.Rollback();
+                    throw;
+                }
+            }
+        }
+
         public static List<Activité> GetActivitésAnnexes()
         {
             List<Activité> listActivitésAnx = new List<Activité>();
@@ -204,12 +282,19 @@ namespace JobOverview
 
             var conx = new SqlConnection(_chaineConnexion);
 
-            string query = @"select p.Login, p.Nom, p.Prenom, p.Manager, p.TauxProductivite, m.CodeMetier, m.Libelle LibelleMetier, 
-                                                s.Nom NomService, t.Libelle, t.CodeActivite
-                             from jo.Personne p
-                             inner join jo.Metier m on p.CodeMetier = m.CodeMetier
-                             inner join jo.Service s on m.CodeService = s.CodeService
-                             inner join jo.Tache t on p.Login = t.Login";
+            string query = @"select distinct p.Login, p.Nom, p.Prenom, p.Manager, p.TauxProductivite, 
+                        						m.CodeMetier, m.Libelle LibelleMetier, 
+                                                s.Nom NomService, 
+                                                t.Libelle LibelleTache, t.CodeActivite CodeActiviteTache,
+                                                a.CodeActivite, a.Libelle LibelleActivité
+                            from jo.Personne p
+                            inner join jo.Metier m on p.CodeMetier = m.CodeMetier
+                            inner join jo.Service s on m.CodeService = s.CodeService
+                            inner join jo.Tache t on p.Login = t.Login
+                            inner join jo.ActiviteMetier am on m.CodeMetier = am.MetierCodeMetier
+                            inner join jo.Activite a on am.ActiviteCodeActivite = a.CodeActivite
+                            where a.Annexe = 0
+                            order by p.Login, t.CodeActivite";
 
             var com = new SqlCommand(query, conx);
             conx.Open();
@@ -221,7 +306,6 @@ namespace JobOverview
 
             return listPersonnes;
         }
-
         #endregion
 
         #region Méthodes Privées
@@ -295,30 +379,124 @@ namespace JobOverview
         {
             while (reader.Read())
             {
-                Personne pers = new Personne() { ListTaches = new List<Tache>() };
-
-                pers.Login = reader["Login"].ToString();
-                pers.Nom = reader["Nom"].ToString();
-                pers.Prénom = reader["Prenom"].ToString();
-                pers.Métier = new Métier()
+                if (!listPersonnes.Any() || listPersonnes.Last().Login != reader["Login"].ToString())
                 {
-                    CodeMétier = reader["CodeMetier"].ToString(),
-                    Service = reader["NomService"].ToString()
-                };
+                    Personne pers = new Personne() { ListTaches = new List<Tache>() };
 
-                if (reader["Manager"] != DBNull.Value)
-                    pers.LoginManager = reader["Manager"].ToString();
+                    pers.Login = reader["Login"].ToString();
+                    pers.Nom = reader["Nom"].ToString();
+                    pers.Prénom = reader["Prenom"].ToString();
+                    pers.Métier = new Métier()
+                    {
+                        CodeMétier = reader["CodeMetier"].ToString(),
+                        Service = reader["NomService"].ToString(),
+                        ListActivités = new List<Activité>()
+                    };
 
-                pers.TauxProductivité = (float)reader["TauxProductivite"];
-                pers.ListTaches.Add(new Tache()
+                    if (reader["Manager"] != DBNull.Value)
+                        pers.LoginManager = reader["Manager"].ToString();
+
+                    pers.TauxProductivité = (float)reader["TauxProductivite"];
+
+                    listPersonnes.Add(pers);
+                }
+
+                if (!listPersonnes.Last().ListTaches.Any() ||
+                    listPersonnes.Last().ListTaches.Last().CodeActivité != reader["CodeActiviteTache"].ToString())
                 {
-                    CodeActivité = reader["CodeActivite"].ToString(),
-                    Libellé = reader["Libelle"].ToString()
-                });
+                    listPersonnes.Last().ListTaches.Add(new Tache()
+                    {
+                        CodeActivité = reader["CodeActiviteTache"].ToString(),
+                        Libellé = reader["LibelleTache"].ToString()
+                    });
+                }
+
+                // Si la liste d'activité de mon métier est vide ou si elle ne contient pas l'activité en test
+                if (!listPersonnes.Last().Métier.ListActivités.Any() ||
+                    !listPersonnes.Last().Métier.ListActivités.Where(a => a.CodeActivité == reader["CodeActivite"].ToString()).Any())
+                {
+                    listPersonnes.Last().Métier.ListActivités.Add(new Activité()
+                    {
+                        CodeActivité = reader["CodeActivite"].ToString(),
+                        Libellé = reader["LibelleActivité"].ToString()
+                    });
+                }
                 //TODO : gérer les taches annexes complètement si nécessaire
 
-                listPersonnes.Add(pers);
             }
+        }
+
+        private static DataTable GetDataTableForTachesProdSansTravail(List<TacheProd> listTachesProd)
+        {
+            // Créaton d'une table mémoire
+            DataTable table = new DataTable();
+
+            #region Création des colonnes 
+            var colIdTache = new DataColumn("IdTache", typeof(Guid));
+            colIdTache.AllowDBNull = false;
+            table.Columns.Add(colIdTache);
+            var colDureePrevue = new DataColumn("DureePrevue", typeof(float));
+            colDureePrevue.AllowDBNull = false;
+            table.Columns.Add(colDureePrevue);
+            var colDureeRestanteEstimee = new DataColumn("DureeRestanteEstimee", typeof(float));
+            colDureeRestanteEstimee.AllowDBNull = false;
+            table.Columns.Add(colDureeRestanteEstimee);
+            var colCodeModule = new DataColumn("CodeModule", typeof(string));
+            colCodeModule.AllowDBNull = false;
+            table.Columns.Add(colCodeModule);
+            var colCodeLogicieModule = new DataColumn("CodeLogicieModule", typeof(string));
+            colCodeLogicieModule.AllowDBNull = false;
+            table.Columns.Add(colCodeLogicieModule);
+            var colNumeroVersion = new DataColumn("NumeroVersion", typeof(float));
+            colNumeroVersion.AllowDBNull = false;
+            table.Columns.Add(colNumeroVersion);
+            var colCodeLogicielVersion = new DataColumn("CodeLogicielVersion", typeof(string));
+            colCodeLogicielVersion.AllowDBNull = false;
+            table.Columns.Add(colCodeLogicielVersion);
+
+
+            var colLibelle = new DataColumn("Libelle", typeof(string));
+            colLibelle.AllowDBNull = false;
+            table.Columns.Add(colLibelle);
+            var colAnnexe = new DataColumn("Annexe", typeof(bool));
+            colAnnexe.AllowDBNull = false;
+            table.Columns.Add(colAnnexe);
+            var colCodeActivite = new DataColumn("CodeActivite", typeof(string));
+            colCodeActivite.AllowDBNull = false;
+            table.Columns.Add(colCodeActivite);
+            var colLogin = new DataColumn("Login", typeof(string));
+            colLogin.AllowDBNull = false;
+            table.Columns.Add(colLogin);
+            var colDescription = new DataColumn("Description", typeof(string));
+            table.Columns.Add(colDescription);
+
+            #endregion
+
+            foreach (var p in listTachesProd)
+            {
+
+                #region Création d'une ligne de table
+                DataRow ligne = table.NewRow();
+                ligne["IdTache"] = Guid.NewGuid();
+
+                ligne["DureePrevue"] = p.DureePrev;
+                ligne["DureeRestanteEstimee"] = p.DureeRest;
+                ligne["CodeModule"] = p.Module;
+                ligne["CodeLogicieModule"] = p.Logiciel;
+                ligne["NumeroVersion"] = p.Version;
+                ligne["CodeLogicielVersion"] = p.Logiciel;
+                ligne["Libelle"] = p.Libelle;
+                ligne["Annexe"] = false;
+                ligne["CodeActivite"] = p.Activite;
+                ligne["Login"] = p.Personne;
+                ligne["Description"] = p.Description;
+                #endregion
+
+                // Ajout de la ligne dans la table
+                table.Rows.Add(ligne);
+
+            }
+            return table;
         }
 
         private static DataTable GetDataTableForTachesProd(List<TacheProd> listTachesProd)
@@ -384,7 +562,6 @@ namespace JobOverview
                 {
                     #region Création d'une ligne de table
                     DataRow ligne = table.NewRow();
-
                     ligne["IdTache"] = Guid.NewGuid();
 
                     ligne["DureePrevue"] = p.DureePrev;
@@ -411,6 +588,48 @@ namespace JobOverview
             return table;
         }
 
+        private static DataTable GetDataTableForTachesAnx(List<Tache> lstTachesAModifier, string login)
+        {
+            DataTable table = new DataTable();
+            #region Initialisations colonnes
+            var colIdTache = new DataColumn("IdTache", typeof(Guid));
+            colIdTache.AllowDBNull = false;
+            table.Columns.Add(colIdTache);
+
+            var colLibelle = new DataColumn("Libelle", typeof(string));
+            colLibelle.AllowDBNull = false;
+            table.Columns.Add(colLibelle);
+
+            var colAnnexe = new DataColumn("Annexe", typeof(bool));
+            colAnnexe.AllowDBNull = false;
+            table.Columns.Add(colAnnexe);
+
+            var colCodeActivite = new DataColumn("CodeActivite", typeof(string));
+            colCodeActivite.AllowDBNull = false;
+            table.Columns.Add(colCodeActivite);
+
+            var colLogin = new DataColumn("Login", typeof(string));
+            colLogin.AllowDBNull = false;
+            table.Columns.Add(colLogin);
+            #endregion
+
+            foreach (var t in lstTachesAModifier)
+            {
+                DataRow ligne = table.NewRow();
+
+                #region Attribution valeurs ligne
+                ligne["IdTache"] = Guid.NewGuid();
+                ligne["Libelle"] = t.Libellé;
+                ligne["Annexe"] = true;
+                ligne["CodeActivite"] = t.CodeActivité;
+                ligne["Login"] = login;
+                #endregion
+
+                table.Rows.Add(ligne);
+            }
+
+            return table;
+        }
         #endregion
 
 
