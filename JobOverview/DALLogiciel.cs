@@ -6,18 +6,28 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using JobOverview.Properties;
+using System.Configuration;
 
 namespace JobOverview
 {
+
     public static class DALLogiciel
     {
+        static private string _chaineConnexion;
+
+        static DALLogiciel()
+        {
+            foreach (SettingsProperty prop in Properties.Settings.Default.Properties)
+                if (prop.Name == "SelectedConnexionString")
+                    _chaineConnexion = prop.DefaultValue.ToString();
+        }
 
         #region Méthodes Publiques
         public static List<Logiciel> GetLogiciels()
         {
             List<Logiciel> listLog = new List<Logiciel>();
 
-            var conx = new SqlConnection(Properties.Settings.Default.JobOverviewConnectionString);
+            var conx = new SqlConnection(_chaineConnexion);
 
             string query = @"select l.CodeLogiciel, l.Nom, m.CodeModule, m.Libelle, m.CodeModuleParent,
                                         v.NumeroVersion, v.Millesime, v.DateOuverture, v.DateSortiePrevue, v.DateSortieReelle,
@@ -41,7 +51,7 @@ namespace JobOverview
 
         public static void AjouterVersionBDD(Version version, string codeLogiciel)
         {
-            SqlConnection connexion = new SqlConnection(Properties.Settings.Default.JobOverviewConnectionString);
+            SqlConnection connexion = new SqlConnection(_chaineConnexion);
 
             connexion.Open();
             var tran = connexion.BeginTransaction();
@@ -88,9 +98,9 @@ namespace JobOverview
 
         }
 
-        public static void SupprimerVersion(string codeLogiciel, float numeroVersion)
+        public static void SupprimerVersionBDD(string codeLogiciel, float numeroVersion)
         {
-            SqlConnection connexion = new SqlConnection(Properties.Settings.Default.JobOverviewConnectionString);
+            SqlConnection connexion = new SqlConnection(_chaineConnexion);
 
             connexion.Open();
             var tran = connexion.BeginTransaction();
@@ -147,7 +157,7 @@ namespace JobOverview
             param.Value = tableProd;
 
 
-            using (var cnx = new SqlConnection(Settings.Default.JobOverviewConnectionString))
+            using (var cnx = new SqlConnection(_chaineConnexion))
             {
                 cnx.Open();
                 SqlTransaction tran = cnx.BeginTransaction();
@@ -167,6 +177,49 @@ namespace JobOverview
                     throw;
                 }
             }
+        }
+
+        public static List<Activité> GetActivitésAnnexes()
+        {
+            List<Activité> listActivitésAnx = new List<Activité>();
+
+            var conx = new SqlConnection(_chaineConnexion);
+
+            string query = @"select CodeActivite, Libelle from jo.Activite where Annexe = 1";
+
+            var com = new SqlCommand(query, conx);
+            conx.Open();
+
+            using (SqlDataReader reader = com.ExecuteReader())
+            {
+                GetActivitésFromDataReader(reader, listActivitésAnx);
+            }
+
+            return listActivitésAnx;
+        }
+
+        public static List<Personne> GetPersonnes()
+        {
+            List<Personne> listPersonnes = new List<Personne>();
+
+            var conx = new SqlConnection(_chaineConnexion);
+
+            string query = @"select p.Login, p.Nom, p.Prenom, p.Manager, p.TauxProductivite, m.CodeMetier, m.Libelle LibelleMetier, 
+                                                s.Nom NomService, t.Libelle, t.CodeActivite
+                             from jo.Personne p
+                             inner join jo.Metier m on p.CodeMetier = m.CodeMetier
+                             inner join jo.Service s on m.CodeService = s.CodeService
+                             inner join jo.Tache t on p.Login = t.Login";
+
+            var com = new SqlCommand(query, conx);
+            conx.Open();
+
+            using (SqlDataReader reader = com.ExecuteReader())
+            {
+                GetPersonnesFromDataReader(reader, listPersonnes);
+            }
+
+            return listPersonnes;
         }
 
         #endregion
@@ -195,14 +248,14 @@ namespace JobOverview
                 {
                     // Création d'un module
                     Module mod = new Module();
-                    
+
                     mod.CodeModule = reader["CodeModule"].ToString();
                     mod.LibelléModule = reader["Libelle"].ToString();
 
                     listLog.Last().ListModules.Add(mod);
                 }
 
-                if (!listLog.Last().ListVersions.Where(m => m.NumeroVersion == (float) reader["NumeroVersion"]).Any())
+                if (!listLog.Last().ListVersions.Where(m => m.NumeroVersion == (float)reader["NumeroVersion"]).Any())
                 {
                     // Création d'une version
                     Version vers = new Version() { ListReleases = new List<Release>() };
@@ -222,6 +275,49 @@ namespace JobOverview
                 rel.DateSetup = (DateTime)reader["DateSetup"];
 
                 listLog.Last().ListVersions.Last().ListReleases.Add(rel);
+            }
+        }
+
+        private static void GetActivitésFromDataReader(SqlDataReader reader, List<Activité> listActivitésAnx)
+        {
+            while (reader.Read())
+            {
+                Activité act = new Activité();
+
+                act.CodeActivité = reader["CodeActivite"].ToString();
+                act.Libellé = reader["Libelle"].ToString();
+
+                listActivitésAnx.Add(act);
+            }
+        }
+
+        private static void GetPersonnesFromDataReader(SqlDataReader reader, List<Personne> listPersonnes)
+        {
+            while (reader.Read())
+            {
+                Personne pers = new Personne() { ListTaches = new List<Tache>() };
+
+                pers.Login = reader["Login"].ToString();
+                pers.Nom = reader["Nom"].ToString();
+                pers.Prénom = reader["Prenom"].ToString();
+                pers.Métier = new Métier()
+                {
+                    CodeMétier = reader["CodeMetier"].ToString(),
+                    Service = reader["NomService"].ToString()
+                };
+
+                if (reader["Manager"] != DBNull.Value)
+                    pers.LoginManager = reader["Manager"].ToString();
+
+                pers.TauxProductivité = (float)reader["TauxProductivite"];
+                pers.ListTaches.Add(new Tache()
+                {
+                    CodeActivité = reader["CodeActivite"].ToString(),
+                    Libellé = reader["Libelle"].ToString()
+                });
+                //TODO : gérer les taches annexes complètement si nécessaire
+
+                listPersonnes.Add(pers);
             }
         }
 
@@ -314,13 +410,14 @@ namespace JobOverview
             }
             return table;
         }
+
         #endregion
 
 
 
 
 
-        
-       
+
+
     }
 }
