@@ -50,7 +50,7 @@ namespace JobOverview
                 {
 
                      
-                    DALXmlcs.ExporterXml(DALXmlcs.GetTachesProd());
+                    DALActivité.ExporterXml(DALActivité.GetTachesProd());
                     MessageBox.Show("L'export des données a été executé correctement", "Export des données");
                 }
                 catch (Exception)
@@ -71,10 +71,10 @@ namespace JobOverview
                 try
                 {
                     //Appel de la méthode de désérialisation
-                    _ListTachesProd = DALXmlcs.Importerfichier();
+                    _ListTachesProd = DALActivité.Importerfichier();
 
                     //Appel de la méthode qui insert en masse les données de la désérialisation vers BDD
-                    DALLogiciel.AjoutTachesProdBDD(_ListTachesProd);
+                    DALActivité.AjoutTachesProdBDD(_ListTachesProd);
                     MessageBox.Show("L'import des données a été executé correctement", "Import des données");
 
                 }

@@ -43,7 +43,7 @@ namespace JobOverview
         private void BtnEnregistrer_Click(object sender, EventArgs e)
         {
             if (_lstTachesProdACréer.Any())
-                DALLogiciel.AjoutTachesProdSansTravailBDD(_lstTachesProdACréer);
+                DALActivité.AjoutTachesProdSansTravailBDD(_lstTachesProdACréer);
 
             _lstTachesProdACréer.Clear();
 
@@ -134,7 +134,7 @@ namespace JobOverview
         protected override void OnLoad(EventArgs e)
         {
             _lstLogiciels = DALLogiciel.GetLogiciels();
-            _lstPersonnes = DALLogiciel.GetPersonnes();
+            _lstPersonnes = DALActivité.GetPersonnes();
             _lstTachesProdACréer = new List<TacheProd>();
 
             cbLogiciel.DataSource = _lstLogiciels.Select(l => new { l.NomLogiciel, l.CodeLogiciel }).ToList();

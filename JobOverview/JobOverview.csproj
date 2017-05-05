@@ -64,7 +64,7 @@
     <Compile Include="FORMS\FormAjoutVersion.Designer.cs">
       <DependentUpon>FormAjoutVersion.cs</DependentUpon>
     </Compile>
-    <Compile Include="DALXmlcs.cs" />
+    <Compile Include="DALActivité.cs" />
     <Compile Include="FORMS\FormLogiciel.cs">
       <SubType>Form</SubType>
     </Compile>

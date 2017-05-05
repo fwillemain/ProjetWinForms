@@ -35,7 +35,7 @@ namespace JobOverview
             try
             {
                 // Enregistrer sur la BDD avec DALLogiciel
-                DALLogiciel.ModifierTachesAnxBDD(_lstTachesAModifier, cbPersonne.SelectedValue.ToString());
+                DALActivité.ModifierTachesAnxBDD(_lstTachesAModifier, cbPersonne.SelectedValue.ToString());
                 _lstTachesAModifier.Clear();
             }
             catch(SqlException se)
@@ -95,8 +95,8 @@ namespace JobOverview
 
         protected override void OnLoad(EventArgs e)
         {
-            _lstActivitésAnx = DALLogiciel.GetActivitésAnnexes();
-            _lstPersonnes = DALLogiciel.GetPersonnes();
+            _lstActivitésAnx = DALActivité.GetActivitésAnnexes();
+            _lstPersonnes = DALActivité.GetPersonnes();
             _lstTachesAModifier = new List<Tache>();
 
             cbPersonne.DataSource = _lstPersonnes.OrderBy(p => p.Nom).Select(p => new { NomComplet = p.Nom + " " + p.Prénom, p.Login }).ToList();

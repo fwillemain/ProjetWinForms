@@ -115,9 +115,9 @@ namespace JobOverview
         protected override void OnLoad(EventArgs e)
         {
             // Affichage des listes personnes et version dans les comboBox au chargement de la fenêtre
-            _lstPersonnes = DALLogiciel.GetPersonnes();
+            _lstPersonnes = DALActivité.GetPersonnes();
             _lstVersions = DALLogiciel.GetVersion();
-            _lstTachesProd = DALXmlcs.GetTachesProd();
+            _lstTachesProd = DALActivité.GetTachesProd();
 
             cmbPersonnes.DataSource = _lstPersonnes.Select(p => p.Login).Distinct().ToList();
             cmbPersonnes.SelectedItem = null;

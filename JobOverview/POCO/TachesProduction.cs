@@ -29,6 +29,6 @@ namespace JobOverview
         public string Module { get; set; }
         [XmlAttribute]
         public float Version { get; set; }
-        public List<Travail> listTravaux { get; set; }
+        public List<Travail> Travaux { get; set; }
     }
 }
