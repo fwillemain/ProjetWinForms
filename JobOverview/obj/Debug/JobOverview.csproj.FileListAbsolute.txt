@@ -34,3 +34,18 @@ C:\Users\Florian\Source\Repos\ProjetWinForms\JobOverview\obj\Debug\JobOverview.c
 C:\Users\Florian\Source\Repos\ProjetWinForms\JobOverview\obj\Debug\JobOverview.exe
 C:\Users\Florian\Source\Repos\ProjetWinForms\JobOverview\obj\Debug\JobOverview.pdb
 C:\Users\Florian\Source\Repos\ProjetWinForms\JobOverview\obj\Debug\JobOverview.FormTachesAnnexes.resources
+D:\Projet Winforms\ProjetWinForms\JobOverview\bin\Debug\JobOverview.exe.config
+D:\Projet Winforms\ProjetWinForms\JobOverview\obj\Debug\JobOverview.exe
+D:\Projet Winforms\ProjetWinForms\JobOverview\obj\Debug\JobOverview.pdb
+D:\Projet Winforms\ProjetWinForms\JobOverview\bin\Debug\JobOverview.exe
+D:\Projet Winforms\ProjetWinForms\JobOverview\bin\Debug\JobOverview.pdb
+D:\Projet Winforms\ProjetWinForms\JobOverview\obj\Debug\JobOverview.csprojResolveAssemblyReference.cache
+D:\Projet Winforms\ProjetWinForms\JobOverview\obj\Debug\JobOverview.FormConfig.resources
+D:\Projet Winforms\ProjetWinForms\JobOverview\obj\Debug\JobOverview.FormAjoutVersion.resources
+D:\Projet Winforms\ProjetWinForms\JobOverview\obj\Debug\JobOverview.FormLogiciel.resources
+D:\Projet Winforms\ProjetWinForms\JobOverview\obj\Debug\JobOverview.FormTachesAnnexes.resources
+D:\Projet Winforms\ProjetWinForms\JobOverview\obj\Debug\JobOverview.MDIForm.resources
+D:\Projet Winforms\ProjetWinForms\JobOverview\obj\Debug\JobOverview.FormTachesProduction.resources
+D:\Projet Winforms\ProjetWinForms\JobOverview\obj\Debug\JobOverview.Properties.Resources.resources
+D:\Projet Winforms\ProjetWinForms\JobOverview\obj\Debug\JobOverview.csproj.GenerateResource.Cache
+D:\Projet Winforms\ProjetWinForms\JobOverview\obj\Debug\JobOverview.FormAjoutTacheProd.resources

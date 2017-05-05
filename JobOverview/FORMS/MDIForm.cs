@@ -20,6 +20,7 @@ namespace JobOverview
             // TODO : Branchement des menus
             mnLogiciel.Click += (object sender, EventArgs e) => ShowChild("JobOverview.FormLogiciel");
             mnTachesProd.Click += (object sender, EventArgs e) => ShowChild("JobOverview.FormTachesProduction");
+
             mnImport.Click += MnImport_Click;
             mnExport.Click += MnExport_Click;
         }

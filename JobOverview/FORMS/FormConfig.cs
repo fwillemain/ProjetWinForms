@@ -24,7 +24,7 @@ namespace JobOverview
                     var prop = new SettingsProperty("SelectedConnexionString");
                     prop.DefaultValue = cbChaineCnx.SelectedValue.ToString();
                     Properties.Settings.Default.Properties.Add(prop);
-
+                    this.DialogResult = DialogResult.OK; 
                     Close();
                 };
         }
