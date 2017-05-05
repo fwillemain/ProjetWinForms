@@ -82,6 +82,7 @@ namespace JobOverview
 
             return listTachesProd;
         }
+
         public static List<Personne> GetPersonnes()
         {
             //Requêtage à la BDD pour récupérer les informations sur les personnes
@@ -287,6 +288,7 @@ namespace JobOverview
                 listTachesProd.Add(TP);
             }
         }
+
         private static void GetPersonnesFromDataReader(SqlDataReader reader, List<Personne> listPersonnes)
         {
             while (reader.Read())
@@ -337,6 +339,7 @@ namespace JobOverview
 
             }
         }
+
         private static void GetActivitésFromDataReader(SqlDataReader reader, List<Activité> listActivitésAnx)
         {
             while (reader.Read())

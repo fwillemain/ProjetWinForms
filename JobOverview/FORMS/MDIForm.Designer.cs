@@ -45,8 +45,8 @@
             this.mnLogiciel,
             this.mnTachesProd,
             this.mnechanges,
-            this.menuWindows,
-            this.mnTachesAnx});
+            this.mnTachesAnx,
+            this.menuWindows});
             this.menuGeneral.Location = new System.Drawing.Point(0, 0);
             this.menuGeneral.Name = "menuGeneral";
             this.menuGeneral.Size = new System.Drawing.Size(787, 24);

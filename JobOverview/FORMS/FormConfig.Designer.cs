@@ -70,7 +70,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cbChaineCnx);
             this.Name = "FormConfig";
-            this.Text = "Selection de la connexion";
+            this.Text = "Sélection de la connexion";
             this.ResumeLayout(false);
             this.PerformLayout();
 
