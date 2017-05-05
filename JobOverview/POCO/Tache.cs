@@ -14,6 +14,5 @@ namespace JobOverview
         [XmlIgnore]
         public string Description { get; set; }
 
-        // TODO : voir comment faire hériter TachesProduction de Tache sans faire buger le XMLSerializer
     }
 }

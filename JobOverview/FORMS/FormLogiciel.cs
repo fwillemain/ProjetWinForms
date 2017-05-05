@@ -14,7 +14,9 @@ namespace JobOverview
 {
     public partial class FormLogiciel : Form
     {
+        // Liste de tous les logiciels dans la BDD
         private List<Logiciel> _lstLogiciels;
+        // Logiciel courant (pour simplifier le code)
         private Logiciel _logCourant;
 
         public FormLogiciel()
@@ -28,17 +30,20 @@ namespace JobOverview
 
         private void BtnAjoutVersion_Click(object sender, EventArgs e)
         {
+            // Désactive le bouton si aucune logiciel n'est sélectionné
             if (cmbLogiciel.SelectedItem == null) return;
 
             using (var form = new FormAjoutVersion())
             {
                 var result = form.ShowDialog();
+                // Si l'utilisateur a validé la création de sa version dans la fenêtre fille, ajouter cette dernière 
+                // à la BDD
                 if (result == DialogResult.Yes)
                 {
                     try
                     {
+                        // Ajout sur la BDD
                         DALLogiciel.AjouterVersionBDD(form.VersionAAjouter, cmbLogiciel.SelectedValue.ToString());
-                        _logCourant.ListVersions.Add(form.VersionAAjouter);
                         MiseAJourUI();
                     }
                     catch (SqlException se)
@@ -58,6 +63,7 @@ namespace JobOverview
 
         private void BtnSupprVersion_Click(object sender, EventArgs e)
         {
+            // Désactive le bouton si aucun logiciel sélectionné
             if (cmbLogiciel.SelectedItem == null) return;
 
             var result = MessageBox.Show("Souhaitez-vous réellement supprimer les versions seléctionnées?", "Suppression", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Exclamation);
@@ -67,6 +73,7 @@ namespace JobOverview
                 {
                     foreach (DataGridViewRow row in dgvVersion.SelectedRows)
                     {
+                        // Supprime sur la BDD
                         DALLogiciel.SupprimerVersionBDD(cmbLogiciel.SelectedValue.ToString(), (float)row.Cells["NumeroVersion"].Value);
                         MiseAJourUI();
                     }
@@ -84,7 +91,6 @@ namespace JobOverview
                 }
             }
         }
-
         private void CmbLogiciel_SelectionChangeCommitted(object sender, EventArgs e)
         {
             MiseAJourUI();
@@ -92,20 +98,31 @@ namespace JobOverview
 
         private void MiseAJourUI()
         {
+            // Met à jour la liste des logiciels
             _lstLogiciels = DALLogiciel.GetLogiciels();
 
+            // Met à jour le logiciel courant
             string codeLogSelect = cmbLogiciel.SelectedValue.ToString();
             _logCourant = _lstLogiciels.Where(l => l.CodeLogiciel == codeLogSelect).First();
 
+            // Met à jour la liste des modules avec le logiciel courant
             lbModule.DataSource = _logCourant.ListModules.Select(m => m.LibelléModule).ToList();
+
+            // Met à jour la dgv avec les version du logiciel courant
             dgvVersion.DataSource = _logCourant.ListVersions
                                              .Select(v => new { v.NumeroVersion, v.ListReleases.Last().NumeroRelease })
                                              .Distinct().ToList();
+
+            dgvVersion.Columns["NumeroVersion"].HeaderText = "Numéro de la version";
+            dgvVersion.Columns["NumeroRelease"].HeaderText = "Dernière release";
+
             dgvVersion.Refresh();
         }
 
         protected override void OnLoad(EventArgs e)
         {
+            // Charges tous les logiciels
+            // Attention : une version d'un logiciel sans release n'est pas récupérée
             _lstLogiciels = DALLogiciel.GetLogiciels();
 
             cmbLogiciel.DataSource = _lstLogiciels.Select(l => new { l.NomLogiciel, l.CodeLogiciel }).ToList();

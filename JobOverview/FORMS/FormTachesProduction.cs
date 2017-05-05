@@ -96,7 +96,7 @@ namespace JobOverview
             dgvTachesProd.Columns["Numéro"].DisplayIndex = 0;
             dgvTachesProd.Columns["Personne"].Visible = false;
             dgvTachesProd.Columns["Version"].Visible = false;
-            dgvTachesProd.Columns["DureeRest"].Visible = false;
+            dgvTachesProd.Columns["Activite"].Visible = false;
         }
 
         private void BtnSuppr_Click(object sender, EventArgs e)
@@ -108,7 +108,12 @@ namespace JobOverview
         {
             using (FormAjoutTacheProd formATP = new FormAjoutTacheProd())
             {
-                //  TODO: Faire Implémentation en récupérant le dialogResult de SaisieTacheProd;
+                var res = formATP.ShowDialog();
+                
+                if(res == DialogResult.Yes || res == DialogResult.OK)
+                {
+                    // TODO : Mettre à jour la liste des taches avec BDD
+                }
             }
         }
 

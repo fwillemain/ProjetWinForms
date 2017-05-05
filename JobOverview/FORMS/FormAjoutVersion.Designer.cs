@@ -142,7 +142,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.mtbNumero);
             this.Name = "FormAjoutVersion";
-            this.Text = "FormAjoutVersion";
+            this.Text = "Ajout de version";
             this.ResumeLayout(false);
             this.PerformLayout();
 

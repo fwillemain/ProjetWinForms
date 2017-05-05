@@ -34,8 +34,8 @@
             this.mnechanges = new System.Windows.Forms.ToolStripMenuItem();
             this.mnImport = new System.Windows.Forms.ToolStripMenuItem();
             this.mnExport = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuWindows = new System.Windows.Forms.ToolStripMenuItem();
             this.mnTachesAnx = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuWindows = new System.Windows.Forms.ToolStripMenuItem();
             this.menuGeneral.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,9 +44,9 @@
             this.menuGeneral.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnLogiciel,
             this.mnTachesProd,
+            this.mnTachesAnx,
             this.mnechanges,
-            this.menuWindows,
-            this.mnTachesAnx});
+            this.menuWindows});
             this.menuGeneral.Location = new System.Drawing.Point(0, 0);
             this.menuGeneral.Name = "menuGeneral";
             this.menuGeneral.Size = new System.Drawing.Size(787, 24);
@@ -86,17 +86,17 @@
             this.mnExport.Size = new System.Drawing.Size(211, 22);
             this.mnExport.Text = "Export Tâches  Equipe";
             // 
-            // menuWindows
-            // 
-            this.menuWindows.Name = "menuWindows";
-            this.menuWindows.Size = new System.Drawing.Size(63, 20);
-            this.menuWindows.Text = "Fenêtres";
-            // 
             // mnTachesAnx
             // 
             this.mnTachesAnx.Name = "mnTachesAnx";
             this.mnTachesAnx.Size = new System.Drawing.Size(100, 20);
             this.mnTachesAnx.Text = "Taches annexes";
+            // 
+            // menuWindows
+            // 
+            this.menuWindows.Name = "menuWindows";
+            this.menuWindows.Size = new System.Drawing.Size(63, 20);
+            this.menuWindows.Text = "Fenêtres";
             // 
             // MDIForm
             // 

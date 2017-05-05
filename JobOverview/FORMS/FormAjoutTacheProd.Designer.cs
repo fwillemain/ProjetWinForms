@@ -48,7 +48,7 @@
             this.lbTachesValidées = new System.Windows.Forms.ListBox();
             this.label5 = new System.Windows.Forms.Label();
             this.btnEnregistrer = new System.Windows.Forms.Button();
-            this.btnAnnulerTout = new System.Windows.Forms.Button();
+            this.btnQuitter = new System.Windows.Forms.Button();
             this.cbActivité = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.btnSuppr = new System.Windows.Forms.Button();
@@ -221,14 +221,14 @@
             this.btnEnregistrer.Text = "Enregistrer";
             this.btnEnregistrer.UseVisualStyleBackColor = true;
             // 
-            // btnAnnulerTout
+            // btnQuitter
             // 
-            this.btnAnnulerTout.Location = new System.Drawing.Point(468, 459);
-            this.btnAnnulerTout.Name = "btnAnnulerTout";
-            this.btnAnnulerTout.Size = new System.Drawing.Size(75, 23);
-            this.btnAnnulerTout.TabIndex = 18;
-            this.btnAnnulerTout.Text = "Annuler";
-            this.btnAnnulerTout.UseVisualStyleBackColor = true;
+            this.btnQuitter.Location = new System.Drawing.Point(468, 459);
+            this.btnQuitter.Name = "btnQuitter";
+            this.btnQuitter.Size = new System.Drawing.Size(75, 23);
+            this.btnQuitter.TabIndex = 18;
+            this.btnQuitter.Text = "Quitter";
+            this.btnQuitter.UseVisualStyleBackColor = true;
             // 
             // cbActivité
             // 
@@ -265,7 +265,7 @@
             this.Controls.Add(this.btnSuppr);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.cbActivité);
-            this.Controls.Add(this.btnAnnulerTout);
+            this.Controls.Add(this.btnQuitter);
             this.Controls.Add(this.btnEnregistrer);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.lbTachesValidées);
@@ -315,7 +315,7 @@
         private System.Windows.Forms.ListBox lbTachesValidées;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnEnregistrer;
-        private System.Windows.Forms.Button btnAnnulerTout;
+        private System.Windows.Forms.Button btnQuitter;
         private System.Windows.Forms.ComboBox cbActivité;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btnSuppr;

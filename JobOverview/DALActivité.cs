@@ -133,6 +133,7 @@ namespace JobOverview
 
             return listActivitésAnx;
         }
+
         public static void AjoutTachesProdSansTravailBDD(List<TacheProd> listTachesProd)
         {
             string req = @"Insert jo.Tache(IdTache, Libelle, Annexe, CodeActivite, Login, Description)                                                                                                 
@@ -223,7 +224,6 @@ namespace JobOverview
                 cnx.Open();
                 var tran = cnx.BeginTransaction();
 
-                // TODO : debugger le merge
                 string query = @"MERGE jo.Tache AS Cible
 	                                USING (SELECT IdTache, Libelle, Annexe, CodeActivite, Login FROM @table) AS Source
 	                                ON (Cible.CodeActivite = Source.CodeActivite and Cible.Login = Source.Login)

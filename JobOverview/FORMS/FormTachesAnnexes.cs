@@ -84,7 +84,6 @@ namespace JobOverview
         {
             string loginSelected = cbPersonne.SelectedValue.ToString();
 
-            // TODO : Gérer le refresh de la dgv
             foreach(DataGridViewRow row in dgvTachesAnx.Rows)
             {
                 string codeActivitéCourant = ((DataGridViewCell)row.Cells["CodeActivité"]).Value.ToString();
@@ -112,7 +111,8 @@ namespace JobOverview
                 Name = "CheckedColumn",
                 FalseValue = false,
                 TrueValue = true,
-                Visible = true
+                Visible = true,
+                HeaderText = "Tâche dispo"
             };
 
             dgvTachesAnx.DataSource = _lstActivitésAnx;
@@ -122,6 +122,7 @@ namespace JobOverview
             dgvTachesAnx.ReadOnly = true;
             dgvTachesAnx.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvTachesAnx.Columns["CodeActivité"].Visible = false;
+            dgvTachesAnx.Columns["Libellé"].HeaderText = "Activité annexe";
             dgvTachesAnx.AllowDrop = false;
             dgvTachesAnx.AllowUserToAddRows = false;
             dgvTachesAnx.AllowUserToOrderColumns = false;

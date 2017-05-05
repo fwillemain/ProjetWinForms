@@ -17,7 +17,6 @@ namespace JobOverview
             InitializeComponent();
             ChildForms = new Dictionary<string, Form>();
 
-           
             mnLogiciel.Click += (object sender, EventArgs e) => ShowChild("JobOverview.FormLogiciel");
             mnTachesProd.Click += (object sender, EventArgs e) => ShowChild("JobOverview.FormTachesProduction");
             mnTachesAnx.Click += (object sender, EventArgs e) => ShowChild("JobOverview.FormTachesAnnexes");
@@ -30,8 +29,10 @@ namespace JobOverview
 
         protected override void OnLoad(EventArgs e)
         {
+            // Lancement de la fenêtre pour la sélection de la chaine de connexion
             var result = new FormConfig().ShowDialog();
 
+            // Si aucune sélection n'a été faite, fermer l'application
             if (result != DialogResult.OK)
                 Close();
 
@@ -48,17 +49,13 @@ namespace JobOverview
             {
                 try
                 {
-
-                     
                     DALActivité.ExporterXml(DALActivité.GetTachesProd());
                     MessageBox.Show("L'export des données a été executé correctement", "Export des données");
                 }
                 catch (Exception)
                 {
-
                     MessageBox.Show("L'Export des données n'a pas été executé correctement", "Export des données");
                 }
-
             }
         }
 
@@ -76,7 +73,6 @@ namespace JobOverview
                     //Appel de la méthode qui insert en masse les données de la désérialisation vers BDD
                     DALActivité.AjoutTachesProdBDD(_ListTachesProd);
                     MessageBox.Show("L'import des données a été executé correctement", "Import des données");
-
                 }
                 catch (Exception)
                 {

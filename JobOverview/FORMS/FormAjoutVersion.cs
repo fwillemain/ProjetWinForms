@@ -13,6 +13,7 @@ namespace JobOverview
     public partial class FormAjoutVersion : Form
     {
         public Version VersionAAjouter { get; set; }
+
         public FormAjoutVersion()
         {
             InitializeComponent();
@@ -37,6 +38,7 @@ namespace JobOverview
             {
                 float tmp;
 
+                // Si il y a un soucis avec les données, annule la fermeture et informer l'utilisateur pour éventuellement modifier ses saisies
                 if (!float.TryParse(mtbNumero.Text, out tmp) || string.IsNullOrEmpty(mtbMillesime.Text))
                 {
                     MessageBox.Show("Numéro de version ou millesime manquant, impossible de créer la version.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
@@ -44,6 +46,7 @@ namespace JobOverview
                     mtbNumero.Clear();
                     mtbMillesime.Clear();
                 }
+                // Sinon créé la version qui sera accessible en propriété
                 else
                 {
                     VersionAAjouter = new Version()
@@ -59,6 +62,5 @@ namespace JobOverview
             }
             base.OnClosing(e);
         }
-
     }
 }
